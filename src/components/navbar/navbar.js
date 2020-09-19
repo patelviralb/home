@@ -4,7 +4,7 @@ import Navlink from "./navlink";
 
 const Navbar = () => {
     const navbarLinks = {
-        "Home": "#",
+        "Home": "vp-home",
         /*"Profiles": "#vp-my-social-profiles",
         "Technical Knowledge": "#vp-my-technical-knowledge",
         "Work Experience": "#vp-my-work-experience",

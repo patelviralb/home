@@ -1,0 +1,37 @@
+.vp-home-background-image {
+    /* The image used */
+    background-image: url("home-background-image.png");
+
+    /* Add the blur effect */
+    /*filter: blur(10px);
+    -webkit-filter: blur(10px);*/
+
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: transparent;
+}
+
+.vp-home-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vp-home-my-name {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.vp-home-my-position, .vp-home-my-education {
+    font-family: Georgia, serif;
+    font-weight: lighter;
+    font-size: x-large;
+}

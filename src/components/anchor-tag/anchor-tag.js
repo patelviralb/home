@@ -5,7 +5,7 @@ const AnchorTag = (props) => {
     return (
         <a className={params.css_class} href={params.href} target={params.target} download={params.download}>
             {
-                params.icon_class && <i className={params.icon_class} />
+                params.icon_class && <i className={params.icon_class}/>
             }
             {
                 params.content && <span>{params.content}</span>

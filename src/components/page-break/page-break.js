@@ -1,0 +1,26 @@
+import React, {Fragment} from "react";
+
+import "./page-break-style.css";
+
+const PageBreak = () => {
+    return (
+        <Fragment>
+            <div className="container">
+                <div className="row">
+                    <div className="col-12 col-md-6 offset-md-3">
+                        <div className="box mt-5 mb-5">
+                            <div className="box-sm red"/>
+                            <div className="box-sm orange"/>
+                            <div className="box-sm yellow"/>
+                            <div className="box-sm green"/>
+                            <div className="box-sm blue"/>
+                            <div className="box-sm purple"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </Fragment>
+    );
+}
+
+export default PageBreak;

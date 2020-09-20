@@ -4,7 +4,8 @@ import Navlink from "./navlink";
 
 const Navbar = () => {
     const navbarLinks = {
-        "Home": "vp-home",
+        "Home": "#vp-home",
+        "About": "#vp-about-me",
         /*"Profiles": "#vp-my-social-profiles",
         "Technical Knowledge": "#vp-my-technical-knowledge",
         "Work Experience": "#vp-my-work-experience",
@@ -21,7 +22,7 @@ const Navbar = () => {
                 <ul className="navbar-nav">
                     {
                         Object.keys(navbarLinks).map(eachKey => {
-                            return <Navlink key={eachKey} name={eachKey} href={navbarLinks[eachKey]} />
+                            return <Navlink key={eachKey} name={eachKey} href={navbarLinks[eachKey]}/>
                         })
                     }
                 </ul>

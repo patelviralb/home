@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Fragment} from "react";
 import "./home-style.css";
 import vp_profile_image from "./vp-profile-image.jpg";
 import AnchorTag from "../anchor-tag";
@@ -30,8 +30,8 @@ const Home = () => {
             "icon_class": "fab fa-twitter fa-lg",
         },
     ];
-    const resume_details= {
-        "css_class": "btn btn-primary font-weight-bold shadow rounded",
+    const resume_details = {
+        "css_class": "btn btn-success font-weight-bold shadow rounded",
         "href": "https://github.com/patelviralb/Resume/raw/master/Viral-Patel_Resume.pdf",
         "download": "Viral-Patel_Resume.pdf",
         "target": "_blank",
@@ -40,7 +40,7 @@ const Home = () => {
     };
 
     return (
-        <React.Fragment>
+        <Fragment>
             <a id="vp-home"></a>
             <div className="vp-home-background-image">
                 <div className="vp-home-content">
@@ -62,13 +62,14 @@ const Home = () => {
                         </div>
                         <div className="row mb-4">
                             <div className="d-flex justify-content-center col-lg-4 offset-lg-4 col-12">
-                                <h4 className="vp-home-my-education text-white font-weight-bold">MS - Computer
-                                    Science</h4>
+                                <h4 className="vp-home-my-education text-white font-weight-bold">
+                                    MS - Computer Science
+                                </h4>
                             </div>
                         </div>
                         <div className="row mb-4">
                             <div className="d-flex justify-content-center col-md-6 offset-md-3 col-12">
-                                <AnchorTag params={resume_details} />
+                                <AnchorTag params={resume_details}/>
                             </div>
                         </div>
                         <div className="row mb-4">
@@ -76,7 +77,7 @@ const Home = () => {
                                 {
                                     social_links.map(eachObject => {
                                         return (
-                                            <AnchorTag key={eachObject.href} params={eachObject} />
+                                            <AnchorTag key={eachObject.href} params={eachObject}/>
                                         );
                                     })
                                 }
@@ -85,7 +86,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-        </React.Fragment>
+        </Fragment>
     );
 }
 

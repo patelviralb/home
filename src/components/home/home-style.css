@@ -1,5 +1,6 @@
 .vp-home-background-image {
     /* The image used */
+    /* Downloaded from https://wallpapercave.com/w/wp3483883 */
     background-image: url("home-backgroung-image_keyboard-mouse.jpeg");
 
     /* Add the blur effect */
@@ -34,4 +35,10 @@
     font-family: Georgia, serif;
     font-weight: lighter;
     font-size: x-large;
+}
+
+.vp-home-my-position, .vp-home-my-education {
+    font-family: Georgia, serif;
+    font-weight: lighter;
+    font-size: large;
 }

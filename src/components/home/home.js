@@ -92,18 +92,20 @@ const Home = () => {
             <div className="vp-home-background-image">
                 <div className="vp-home-content">
                     <div className="container">
-                        <div className="row mb-4">
+                        <div className="row mb-n5">
                             <div className="d-flex justify-content-center col-md-4 offset-md-4 col-6 offset-3">
                                 <img className="rounded-circle w-100 h-100" src={vp_profile_image} alt="Hey there ! I'm Viral Patel"/>
                             </div>
                         </div>
 
-                        {getDataForScreenSizeGreaterThanSmall()}
-                        {getDataForScreenSizeSmallerThanMedium()}
+                        <div className="pt-5 pb-2 rounded vp-home-text mt-n5">
+                            {getDataForScreenSizeGreaterThanSmall()}
+                            {getDataForScreenSizeSmallerThanMedium()}
 
-                        <div className="row mb-4">
-                            <div className="d-flex justify-content-center col-md-6 offset-md-3 col-12">
-                                <AnchorTag params={resume_details}/>
+                            <div className="row mb-4">
+                                <div className="d-flex justify-content-center col-md-6 offset-md-3 col-12">
+                                    <AnchorTag params={resume_details}/>
+                                </div>
                             </div>
                         </div>
                         {/*<div className="row mb-4">

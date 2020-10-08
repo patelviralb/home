@@ -42,3 +42,7 @@
 .vp-home-my-position-small {
     font-size: large;
 }
+
+.vp-home-text {
+    background-color: rgba(0, 0, 0, 0.4);
+}

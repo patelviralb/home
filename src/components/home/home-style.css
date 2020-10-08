@@ -1,6 +1,7 @@
 .vp-home-background-image {
     /* The image used */
-    background-image: url("home-background-image.png");
+    /* Downloaded from https://wallpapercave.com/w/wp3483883 */
+    background-image: url("home-backgroung-image_keyboard-mouse.jpeg");
 
     /* Add the blur effect */
     /*filter: blur(10px);
@@ -24,14 +25,20 @@
     align-items: center;
 }
 
-.vp-home-my-name {
+.vp-home-my-name, .vp-home-my-position, .vp-home-my-name-small, .vp-home-my-position-small {
     font-family: Georgia, serif;
     font-weight: bold;
+    color: white;
+}
+
+.vp-home-my-name {
     font-size: xx-large;
 }
 
-.vp-home-my-position, .vp-home-my-education {
-    font-family: Georgia, serif;
-    font-weight: lighter;
+.vp-home-my-position, .vp-home-my-name-small {
     font-size: x-large;
+}
+
+.vp-home-my-position-small {
+    font-size: large;
 }

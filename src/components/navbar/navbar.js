@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 import Navlink from "./navlink";
 
@@ -13,10 +13,25 @@ const Navbar = () => {
         "Testimonies": "#vp-my-testimonies",
         "Projects": "#vp-my-projects",*/
     };
+
+    const [bgColor, setBgColor] = useState("");
+
+    const listenScrollEvent = e => {
+        if (window.scrollY > 500) {
+            setBgColor("bg-primary")
+        } else {
+            setBgColor("")
+        }
+    };
+
+    React.useEffect(() => {
+        window.addEventListener('scroll', listenScrollEvent);
+    }, []);
+
     return (
-        <nav className="navbar navbar-expand-lg navbar-primary bg-primary fixed-top">
+        <nav className={`navbar navbar-expand-lg navbar-primary fixed-top ${bgColor}`}>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
-                <i className="fas fa-bars text-white"></i>
+                <i className="fas fa-bars text-white"/>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav">

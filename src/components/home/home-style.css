@@ -25,20 +25,20 @@
     align-items: center;
 }
 
-.vp-home-my-name {
+.vp-home-my-name, .vp-home-my-position, .vp-home-my-name-small, .vp-home-my-position-small {
     font-family: Georgia, serif;
     font-weight: bold;
+    color: white;
+}
+
+.vp-home-my-name {
     font-size: xx-large;
 }
 
-.vp-home-my-position, .vp-home-my-education {
-    font-family: Georgia, serif;
-    font-weight: lighter;
+.vp-home-my-position, .vp-home-my-name-small {
     font-size: x-large;
 }
 
-.vp-home-my-position, .vp-home-my-education {
-    font-family: Georgia, serif;
-    font-weight: lighter;
+.vp-home-my-position-small {
     font-size: large;
 }

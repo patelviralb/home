@@ -44,6 +44,7 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
+            <div className="mb-5"></div>
             <PageBreak/>
         </Fragment>
     );

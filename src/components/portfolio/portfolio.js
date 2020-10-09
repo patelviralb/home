@@ -5,6 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Navbar from "../navbar";
 import Home from "../home";
 import AboutMe from "../about-me";
+import TechnicalKnowledge from "../technical-knowledge";
 
 const Portfolio = () => {
     return (
@@ -12,6 +13,7 @@ const Portfolio = () => {
             <Navbar/>
             <Home/>
             <AboutMe/>
+            <TechnicalKnowledge/>
         </Fragment>
     );
 }

@@ -44,7 +44,7 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
-            <div className="mb-5"></div>
+            <div className="mb-5"/>
             <PageBreak/>
         </Fragment>
     );

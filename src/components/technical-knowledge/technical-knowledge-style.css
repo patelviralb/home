@@ -3,3 +3,15 @@
     font-weight: bold;
     text-justify: inter-word;
 }
+
+.vp-languages-proficiency {
+    font-weight: bold;
+    font-size: small;
+    color: #666666;
+}
+
+@media screen and (min-width: 992px) {
+    .vp-offset-lg-4_5 {
+        margin-left: 37.50%
+    }
+}

@@ -7,10 +7,10 @@ const AboutMe = () => {
     return (
         <Fragment>
             <a id="vp-about-me"/>
-            <div className="container-fluid mt-5 mt-md-n5">
+            <div className="container-fluid mt-5">
                 <div className="row">
                     <div className="col-md-10 offset-md-1 col-12">
-                        <div className="card shadow-lg rounded mt-md-n5">
+                        <div className="card shadow-lg rounded">
                             <div className="card-body text-justify">
                                 <p className="mb-5">
                                     <span className="vp-about-me-content">
@@ -32,7 +32,7 @@ const AboutMe = () => {
                                         and Artificial Intelligence.
                                     </span>
                                 </p>
-                                <p className="mb-5">
+                                <p>
                                     <span className="vp-about-me-content">
                                         During my time-off, you'll find me casually reading books, surfing articles on
                                         the internet or watching some cartoons, sci-fi series or movies and I like to

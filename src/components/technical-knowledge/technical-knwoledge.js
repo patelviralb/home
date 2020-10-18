@@ -26,8 +26,11 @@ const TechnicalKnowledge = () => {
             </h4>
           </div>
         </div>
-
-        <Languages />
+        <div className="row mt-4">
+          <div className="col-md-10 offset-md-1 col-12">
+            <Languages />
+          </div>
+        </div>
 
         <a id="vp-my-technologies-and-frameworks" />
         <div className="row mt-4">
@@ -37,8 +40,12 @@ const TechnicalKnowledge = () => {
             </h4>
           </div>
         </div>
-
-        <TechnologiesAndFrameworks />
+        <div className="row mt-4">
+          <div className="col-md-10 offset-md-1 col-12">
+            <TechnologiesAndFrameworks />
+          </div>
+        </div>
+        
       </div>
       <div className="mb-5" />
       <PageBreak />

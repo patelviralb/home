@@ -35,26 +35,26 @@ const createLanguageCard = (language) => {
 
 const TechnicalKnowledgeLanguages = () => {
     return (
-        <div className="container mt-4">
+        <div className="container-fluid ml-n3 mt-4">
             <div className="row">
 
-                <div className="offset-2 col-8 offset-md-0 col-md-6 col-lg-3">
-                    <div className="card shadow-lg rounded">
+                <div className="col-12 col-md-6 col-lg-3">
+                    <div className="card shadow rounded">
                         {createLanguageCard("Java")}
                     </div>
                 </div>
-                <div className="offset-2 col-8 offset-md-0  col-md-6 col-lg-3 mt-md-0 mt-4">
-                    <div className="card shadow-lg rounded">
+                <div className="col-12 col-md-6 col-lg-3 mt-md-0 mt-4">
+                    <div className="card shadow rounded">
                         {createLanguageCard("C")}
                     </div>
                 </div>
-                <div className="offset-2 col-8 offset-md-0  col-md-6 col-lg-3 mt-4 mt-lg-0">
-                    <div className="card shadow-lg rounded">
+                <div className="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0">
+                    <div className="card shadow rounded">
                         {createLanguageCard("C++")}
                     </div>
                 </div>
-                <div className="offset-2 col-8 offset-md-0  col-md-6 col-lg-3 mt-4 mt-lg-0">
-                    <div className="card shadow-lg rounded">
+                <div className="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0">
+                    <div className="card shadow rounded">
                         {createLanguageCard("Python")}
                     </div>
                 </div>

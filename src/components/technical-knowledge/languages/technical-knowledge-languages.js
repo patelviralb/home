@@ -6,7 +6,7 @@ const createLanguageCard = (language) => {
     let languageSvgComponent;
 
     if (language === "Java") {
-        languageProficiency = "Advance";
+        languageProficiency = "Intermediate";
         languageSvgComponent=<JavaSvg/>;
     } else if (language === "C") {
         languageProficiency = "Intermediate";
@@ -38,22 +38,22 @@ const TechnicalKnowledgeLanguages = () => {
         <div className="container mt-4">
             <div className="row">
 
-                <div className="col-12 col-md-6 col-lg-3">
+                <div className="offset-2 col-8 offset-md-0 col-md-6 col-lg-3">
                     <div className="card shadow-lg rounded">
                         {createLanguageCard("Java")}
                     </div>
                 </div>
-                <div className="col-12 col-md-6 col-lg-3 mt-md-0 mt-4">
+                <div className="offset-2 col-8 offset-md-0  col-md-6 col-lg-3 mt-md-0 mt-4">
                     <div className="card shadow-lg rounded">
                         {createLanguageCard("C")}
                     </div>
                 </div>
-                <div className="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0">
+                <div className="offset-2 col-8 offset-md-0  col-md-6 col-lg-3 mt-4 mt-lg-0">
                     <div className="card shadow-lg rounded">
                         {createLanguageCard("C++")}
                     </div>
                 </div>
-                <div className="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0">
+                <div className="offset-2 col-8 offset-md-0  col-md-6 col-lg-3 mt-4 mt-lg-0">
                     <div className="card shadow-lg rounded">
                         {createLanguageCard("Python")}
                     </div>

@@ -117,6 +117,7 @@ const Home = () => {
                                 }
                             </div>
                         </div>*/}
+                        <a id="vp-about-me"/>
                     </div>
                 </div>
             </div>

@@ -6,7 +6,7 @@ import PageBreak from "../page-break";
 const AboutMe = () => {
     return (
         <Fragment>
-            
+
             <div className="container-fluid mt-5">
                 <div className="row">
                     <div className="col-md-10 offset-md-1 col-12">

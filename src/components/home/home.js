@@ -94,7 +94,8 @@ const Home = () => {
                     <div className="container">
                         <div className="row mb-4">
                             <div className="d-flex justify-content-center col-md-4 offset-md-4 col-6 offset-3">
-                                <img className="rounded-circle w-100 h-100" src={vp_profile_image} alt="Hey there ! I'm Viral Patel"/>
+                                <img className="rounded-circle w-100 h-100" src={vp_profile_image}
+                                     alt="Hey there ! I'm Viral Patel"/>
                             </div>
                         </div>
 

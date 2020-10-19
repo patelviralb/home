@@ -1,6 +1,17 @@
 import React from "react";
 
-import {GitVCS, ReactJs, Redux, Angular, NodeJs, JavaScript, JQuery, MongoDB, MySQL, IBMSvg} from "../svg/technical-knowledge-svg";
+import {
+    Angular,
+    GitVCS,
+    IBMSvg,
+    JavaScript,
+    JQuery,
+    MongoDB,
+    MySQL,
+    NodeJs,
+    ReactJs,
+    Redux
+} from "../svg/technical-knowledge-svg";
 
 const createTechnologiesAndFrameworkCard = (input) => {
     let technologyAndFrameworkProficiency;
@@ -55,45 +66,46 @@ const createTechnologiesAndFrameworkCard = (input) => {
 }
 
 const TechnicalKnowledgeTechnologiesAndFrameworks = () => {
-  return (
-    <div className="container-fluid ml-n3 mt-4">
-      <div className="row">
-        <div className="col-12 col-md-6 col-lg-3">
-          <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("Git VCS")}</div>
+    return (
+        <div className="container-fluid ml-n3 mt-4">
+            <div className="row">
+                <div className="col-12 col-md-6 col-lg-3">
+                    <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("Git VCS")}</div>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 mt-md-0 mt-4">
+                    <div
+                        className="card shadow rounded">{createTechnologiesAndFrameworkCard("IBM WTX (v8.4.0.3)")}</div>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 mt-lg-0 mt-4">
+                    <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("React.js")}</div>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 mt-lg-0 mt-4">
+                    <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("Redux")}</div>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 mt-4">
+                    <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("MySQL")}</div>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 mt-4">
+                    <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("IBM ITX (v9.0)")}</div>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 mt-4">
+                    <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("Node.js")}</div>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 mt-4">
+                    <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("JavaScript")}</div>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 mt-4">
+                    <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("Angular")}</div>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 mt-4">
+                    <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("jQuery")}</div>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 mt-4">
+                    <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("MongoDB")}</div>
+                </div>
+            </div>
         </div>
-        <div className="col-12 col-md-6 col-lg-3 mt-md-0 mt-4">
-          <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("IBM WTX (v8.4.0.3)")}</div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-3 mt-lg-0 mt-4">
-          <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("React.js")}</div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-3 mt-lg-0 mt-4">
-          <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("Redux")}</div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-3 mt-4">
-          <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("MySQL")}</div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-3 mt-4">
-          <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("IBM ITX (v9.0)")}</div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-3 mt-4">
-          <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("Node.js")}</div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-3 mt-4">
-          <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("JavaScript")}</div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-3 mt-4">
-          <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("Angular")}</div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-3 mt-4">
-          <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("jQuery")}</div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-3 mt-4">
-          <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("MongoDB")}</div>
-        </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default TechnicalKnowledgeTechnologiesAndFrameworks;

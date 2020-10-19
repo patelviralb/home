@@ -7,16 +7,16 @@ const createLanguageCard = (language) => {
 
     if (language === "Java") {
         languageProficiency = "Intermediate";
-        languageSvgComponent=<JavaSvg/>;
+        languageSvgComponent = <JavaSvg/>;
     } else if (language === "C") {
         languageProficiency = "Intermediate";
-        languageSvgComponent=<CSvg/>;
+        languageSvgComponent = <CSvg/>;
     } else if (language === "C++") {
         languageProficiency = "Novice";
-        languageSvgComponent=<CppSvg/>;
+        languageSvgComponent = <CppSvg/>;
     } else if (language === "Python") {
         languageProficiency = "Beginner";
-        languageSvgComponent=<PythonSvg/>;
+        languageSvgComponent = <PythonSvg/>;
     }
 
     return (

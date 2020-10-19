@@ -1,50 +1,89 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './work-experience-style.scss';
+import { QuickBase, Infosys } from './svg/company-name-svg';
+import prolifics_logo from './image/prolifics_web_white.png';
 
 const WorkExperience = () => {
   return (
     <section className="vp-work-experience-bar">
       <div className="container-fluid">
         <div className="vp-work-experience-item">
-          <div className="vp-work-experience-item-point"></div>
+          <div className="vp-work-experience-item-bullet" />
           <div className="vp-work-experience-content">
-            <h2>Software Engineer Co-op</h2>
-            <h3>Quick Base</h3>
+            <h4 className="mt-5">Software Engineer Co-op</h4>
+            <QuickBase />
             <div className="vp-work-experience-duration">
               June 2020 - Present 2019
             </div>
-            <ul>
-              <li>
-                Working on enhancing the timeline report (Gantt Chart) for the
-                platform
-              </li>
-              <li>
-                The frontend code is designed using React, Redux which uses
-                backend API which is written in C++
-              </li>
-            </ul>
+            <blockquote>
+              <ul>
+                <li>
+                  Working on enhancing the timeline report (Gantt Chart) for the
+                  platform
+                </li>
+                <li>
+                  The frontend code is designed using React, Redux which uses
+                  backend API which is written in C++
+                </li>
+              </ul>
+            </blockquote>
           </div>
         </div>
 
         <div className="vp-work-experience-item">
-          <div className="vp-work-experience-item-point"></div>
+          <div className="vp-work-experience-item-bullet" />
           <div className="vp-work-experience-content">
             <h2 className="mt-5">Senior Software Engineer</h2>
             <h3>Prolifics</h3>
+            <img
+              src={prolifics_logo}
+              alt={'Prolifics'}
+              style={{ width: '150px', backgroundColor: '#4297d2' }}
+              className="p-2"
+            />
             <div className="vp-work-experience-duration">
-              June 2020 - Present 2019
+              November 2018 - August 2019
             </div>
-            <ul>
-              <li>
-                Consulted for Health Insurance Company for creating claim
-                processing infrastructures
-              </li>
-              <li>
-                Created a unique solution to track Medicare claims using ITX/IBM
-                WTX and MySQL
-              </li>
-              <li>Worked on JSON, XML, CSV and ANSI X12 files</li>
-            </ul>
+            <blockquote>
+              <ul>
+                <li>
+                  Consulted for Health Insurance Company for creating claim
+                  processing infrastructures
+                </li>
+                <li>
+                  Created a unique solution to track Medicare claims using
+                  ITX/IBM WTX and MySQL
+                </li>
+                <li>Worked on JSON, XML, CSV and ANSI X12 files</li>
+              </ul>
+            </blockquote>
+          </div>
+        </div>
+
+        <div className="vp-work-experience-item">
+          <div className="vp-work-experience-item-bullet" />
+          <div className="vp-work-experience-content">
+            <h2 className="mt-5">Technology Analyst</h2>
+            <h3>Infosys Limited</h3>
+            {/*<div style={{ backgroundColor: '#007cc3' }} className="p-2">*/}
+            <Infosys />
+            {/*</div>*/}
+            <div className="vp-work-experience-duration">
+              April 2018 - November 2018
+            </div>
+            <blockquote>
+              <ul>
+                <li>
+                  Consulted for Health Insurance Company for creating claim
+                  processing infrastructures
+                </li>
+                <li>
+                  Created a unique solution to track Medicare claims using
+                  ITX/IBM WTX and MySQL
+                </li>
+                <li>Worked on JSON, XML, CSV and ANSI X12 files</li>
+              </ul>
+            </blockquote>
           </div>
         </div>
         {/*<div className="timeline-item">

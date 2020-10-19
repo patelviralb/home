@@ -60,7 +60,7 @@ $vp-background-color: #E5E5E5;
   }
 }
 
-.vp-work-experience-item-point {
+.vp-work-experience-item-bullet {
   width: 30px;
   height: 30px;
   background: $primary;
@@ -102,4 +102,64 @@ $vp-background-color: #E5E5E5;
   top: 0;
   right: 0;
   border-radius: 0 10px 0 0;
+}
+
+blockquote {
+  margin-top: 30px;
+  color: $secondary-text;
+  border-left-color: $primary;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 991px) {
+
+  .vp-work-experience-bar {
+    &::before {
+      left: 50px;
+    }
+
+    .vp-work-experience-item-bullet {
+      left: 50px;
+    }
+
+    .vp-work-experience-content {
+      max-width: 100%;
+      width: auto;
+      margin-left: 70px;
+    }
+
+    .vp-work-experience-item {
+      &:nth-child(even) {
+        .vp-work-experience-content {
+          float: none;
+
+          .vp-work-experience-duration {
+            right: 0;
+            border-radius: 10px 10px 0 0;
+          }
+        }
+      }
+
+      &:nth-child(odd) {
+        .vp-work-experience-content {
+          .vp-work-experience-duration {
+            left: 0;
+            border-radius: 10px 10px 0 0;
+          }
+
+          &::after {
+            content: '';
+            position: absolute;
+            border-style: solid;
+            width: 0;
+            height: 0;
+            top: 30px;
+            left: -15px;
+            border-width: 10px 15px 10px 0;
+            border-color: transparent $vp-background-color transparent transparent;
+          }
+        }
+      }
+    }
+  }
 }

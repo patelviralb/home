@@ -1,10 +1,54 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import './work-experience-style.scss';
 import { Infosys, QuickBase } from './svg/company-name-svg';
 import prolifics_logo from './image/prolifics_web_white.png';
 import PageBreak from '../page-break';
 
 const WorkExperience = () => {
+  const [qbWorkExperience, setQbWorkExperience] = useState('SHOW DETAILS');
+  const [prolificsWorkExperience, setProlificsWorkExperience] = useState(
+    'SHOW DETAILS'
+  );
+  const [infosysTaWorkExperience, setInfosysTaWorkExperience] = useState(
+    'SHOW DETAILS'
+  );
+  const [infosysSseWorkExperience, setInfosysSseWorkExperience] = useState(
+    'SHOW DETAILS'
+  );
+  const [infosysSeWorkExperience, setInfosysSeWorkExperience] = useState(
+    'SHOW DETAILS'
+  );
+
+  const toggleStatus = (stateVariable, setStateVariableFunction) => {
+    if (stateVariable === 'SHOW DETAILS') {
+      setStateVariableFunction('HIDE DETAILS');
+    } else {
+      setStateVariableFunction('SHOW DETAILS');
+    }
+  };
+
+  const onToggleButtonClick = companyName => {
+    switch (companyName) {
+      case 'QB':
+        toggleStatus(qbWorkExperience, setQbWorkExperience);
+        break;
+      case 'PROLIFICS':
+        toggleStatus(prolificsWorkExperience, setProlificsWorkExperience);
+        break;
+      case 'INFOSYS_TA':
+        toggleStatus(infosysTaWorkExperience, setInfosysTaWorkExperience);
+        break;
+      case 'INFOSYS_SSE':
+        toggleStatus(infosysSseWorkExperience, setInfosysSseWorkExperience);
+        break;
+      case 'INFOSYS_SE':
+        toggleStatus(infosysSeWorkExperience, setInfosysSeWorkExperience);
+        break;
+      default:
+        break;
+    }
+  };
+
   return (
     <Fragment>
       <a id="vp-my-professional-experience" />
@@ -30,7 +74,23 @@ const WorkExperience = () => {
                       June 2020 - Present
                     </div>
                     <blockquote className="vp-work-experience-description">
-                      <ul>
+                      <button
+                        data-toggle="collapse"
+                        data-target="#vp-qb-work-experience"
+                        aria-expanded="false"
+                        className="btn btn-secondary rounded"
+                        onClick={() => onToggleButtonClick('QB')}
+                      >
+                        {qbWorkExperience}
+                        <i
+                          className={`ml-2 fas ${
+                            qbWorkExperience === 'SHOW DETAILS'
+                              ? 'fa-chevron-down'
+                              : 'fa-chevron-up'
+                          }`}
+                        />
+                      </button>
+                      <ul className="collapse" id="vp-qb-work-experience">
                         <li className="text-justify vp-work-experience-description-bullets">
                           Working on enhancing the timeline report (Gantt Chart)
                           for the platform
@@ -59,7 +119,26 @@ const WorkExperience = () => {
                       November 2018 - August 2019
                     </div>
                     <blockquote className="vp-work-experience-description">
-                      <ul>
+                      <button
+                        data-toggle="collapse"
+                        data-target="#vp-prolifics-work-experience"
+                        aria-expanded="false"
+                        className="btn btn-secondary rounded"
+                        onClick={() => onToggleButtonClick('PROLIFICS')}
+                      >
+                        {prolificsWorkExperience}
+                        <i
+                          className={`ml-2 fas ${
+                            prolificsWorkExperience === 'SHOW DETAILS'
+                              ? 'fa-chevron-down'
+                              : 'fa-chevron-up'
+                          }`}
+                        />
+                      </button>
+                      <ul
+                        className="collapse"
+                        id="vp-prolifics-work-experience"
+                      >
                         <li className="text-justify vp-work-experience-description-bullets">
                           Consulted for Health Insurance Company for creating
                           claim processing infrastructures
@@ -86,7 +165,26 @@ const WorkExperience = () => {
                       April 2018 - November 2018
                     </div>
                     <blockquote className="vp-work-experience-description">
-                      <ul>
+                      <button
+                        data-toggle="collapse"
+                        data-target="#vp-infosys-ta-work-experience"
+                        aria-expanded="false"
+                        className="btn btn-secondary rounded"
+                        onClick={() => onToggleButtonClick('INFOSYS_TA')}
+                      >
+                        {infosysTaWorkExperience}
+                        <i
+                          className={`ml-2 fas ${
+                            infosysTaWorkExperience === 'SHOW DETAILS'
+                              ? 'fa-chevron-down'
+                              : 'fa-chevron-up'
+                          }`}
+                        />
+                      </button>
+                      <ul
+                        className="collapse"
+                        id="vp-infosys-ta-work-experience"
+                      >
                         <li className="text-justify vp-work-experience-description-bullets">
                           Consulted for Health Insurance Company for creating
                           claim processing infrastructures
@@ -113,7 +211,26 @@ const WorkExperience = () => {
                       October 2016 - March 2018
                     </div>
                     <blockquote className="vp-work-experience-description">
-                      <ul>
+                      <button
+                        data-toggle="collapse"
+                        data-target="#vp-infosys-sse-work-experience"
+                        aria-expanded="false"
+                        className="btn btn-secondary rounded"
+                        onClick={() => onToggleButtonClick('INFOSYS_SSE')}
+                      >
+                        {infosysSseWorkExperience}
+                        <i
+                          className={`ml-2 fas ${
+                            infosysSseWorkExperience === 'SHOW DETAILS'
+                              ? 'fa-chevron-down'
+                              : 'fa-chevron-up'
+                          }`}
+                        />
+                      </button>
+                      <ul
+                        className="collapse"
+                        id="vp-infosys-sse-work-experience"
+                      >
                         <li className="text-justify vp-work-experience-description-bullets">
                           Performed requirement gathering and effort estimations
                           for file processing and transformation (to and from
@@ -146,7 +263,26 @@ const WorkExperience = () => {
                       November 2014 - September 2016
                     </div>
                     <blockquote className="vp-work-experience-description">
-                      <ul>
+                      <button
+                        data-toggle="collapse"
+                        data-target="#vp-infosys-se-work-experience"
+                        aria-expanded="false"
+                        className="btn btn-secondary rounded"
+                        onClick={() => onToggleButtonClick('INFOSYS_SE')}
+                      >
+                        {infosysSeWorkExperience}
+                        <i
+                          className={`ml-2 fas ${
+                            infosysSeWorkExperience === 'SHOW DETAILS'
+                              ? 'fa-chevron-down'
+                              : 'fa-chevron-up'
+                          }`}
+                        />
+                      </button>
+                      <ul
+                        className="collapse"
+                        id="vp-infosys-se-work-experience"
+                      >
                         <li className="text-justify vp-work-experience-description-bullets">
                           Developed custom validations for healthcare batch
                           transactions like 834, 835, 837, etc. and real-time

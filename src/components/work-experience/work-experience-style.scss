@@ -87,7 +87,6 @@ $vp-background-color: #E5E5E5;
     width: 0;
     height: 0;
     top: 30px;
-    left: 1000px;
     right: -15px;
     border-width: 10px 0 10px 15px;
     border-color: transparent transparent transparent $vp-background-color;
@@ -105,12 +104,12 @@ $vp-background-color: #E5E5E5;
   border-radius: 0 10px 0 0;
 }
 
-blockquote {
+.vp-work-experience-description {
   color: $secondary-text;
   margin-top: 2rem;
 }
 
-li {
+.vp-work-experience-description-bullets {
   padding: .5rem;
 }
 

@@ -29,13 +29,13 @@ const WorkExperience = () => {
                     <div className="vp-work-experience-duration">
                       June 2020 - Present
                     </div>
-                    <blockquote>
+                    <blockquote className="vp-work-experience-description">
                       <ul>
-                        <li className="text-justify">
+                        <li className="text-justify vp-work-experience-description-bullets">
                           Working on enhancing the timeline report (Gantt Chart)
                           for the platform
                         </li>
-                        <li className="text-justify">
+                        <li className="text-justify vp-work-experience-description-bullets">
                           The frontend code is designed using React, Redux which
                           uses backend API which is written in C++
                         </li>
@@ -58,17 +58,17 @@ const WorkExperience = () => {
                     <div className="vp-work-experience-duration">
                       November 2018 - August 2019
                     </div>
-                    <blockquote>
+                    <blockquote className="vp-work-experience-description">
                       <ul>
-                        <li className="text-justify">
+                        <li className="text-justify vp-work-experience-description-bullets">
                           Consulted for Health Insurance Company for creating
                           claim processing infrastructures
                         </li>
-                        <li className="text-justify">
+                        <li className="text-justify vp-work-experience-description-bullets">
                           Created a unique solution to track Medicare claims
                           using ITX/IBM WTX and MySQL
                         </li>
-                        <li className="text-justify">
+                        <li className="text-justify vp-work-experience-description-bullets">
                           Worked on JSON, XML, CSV and ANSI X12 files
                         </li>
                       </ul>
@@ -85,17 +85,17 @@ const WorkExperience = () => {
                     <div className="vp-work-experience-duration">
                       April 2018 - November 2018
                     </div>
-                    <blockquote>
+                    <blockquote className="vp-work-experience-description">
                       <ul>
-                        <li className="text-justify">
+                        <li className="text-justify vp-work-experience-description-bullets">
                           Consulted for Health Insurance Company for creating
                           claim processing infrastructures
                         </li>
-                        <li className="text-justify">
+                        <li className="text-justify vp-work-experience-description-bullets">
                           Created a unique solution to track Medicare claims
                           using ITX/IBM WTX and MySQL
                         </li>
-                        <li className="text-justify">
+                        <li className="text-justify vp-work-experience-description-bullets">
                           Worked on JSON, XML, CSV and ANSI X12 files
                         </li>
                       </ul>
@@ -112,22 +112,22 @@ const WorkExperience = () => {
                     <div className="vp-work-experience-duration">
                       October 2016 - March 2018
                     </div>
-                    <blockquote>
+                    <blockquote className="vp-work-experience-description">
                       <ul>
-                        <li className="text-justify">
+                        <li className="text-justify vp-work-experience-description-bullets">
                           Performed requirement gathering and effort estimations
                           for file processing and transformation (to and from
                           ANSI X12, CSV, Fixed length, XML) using IBM WTX/ITX
                           based on requirement complexities
                         </li>
-                        <li className="text-justify">
+                        <li className="text-justify vp-work-experience-description-bullets">
                           Implemented a multi-file format project requirement
                           using IBM WTX and shell scripting, which resulted in
                           new business acquisition for the client resulting in a
                           30% increase in billing for the company from the
                           client for the full project design and implementation
                         </li>
-                        <li className="text-justify">
+                        <li className="text-justify vp-work-experience-description-bullets">
                           Provided release support while production deployment
                           and production check out
                         </li>
@@ -145,9 +145,9 @@ const WorkExperience = () => {
                     <div className="vp-work-experience-duration">
                       November 2014 - September 2016
                     </div>
-                    <blockquote>
+                    <blockquote className="vp-work-experience-description">
                       <ul>
-                        <li className="text-justify">
+                        <li className="text-justify vp-work-experience-description-bullets">
                           Developed custom validations for healthcare batch
                           transactions like 834, 835, 837, etc. and real-time
                           transactions like 270, 271, 276, 277, 278, etc. using

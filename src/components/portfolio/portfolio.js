@@ -1,21 +1,23 @@
-import React, {Fragment} from "react";
+import React, { Fragment } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-import Navbar from "../navbar";
-import Home from "../home";
-import AboutMe from "../about-me";
-import TechnicalKnowledge from "../technical-knowledge";
+import Navbar from '../navbar';
+import Home from '../home';
+import AboutMe from '../about-me';
+import TechnicalKnowledge from '../technical-knowledge';
+import WorkExperience from '../work-experience/WorkExperience';
 
 const Portfolio = () => {
-    return (
-        <Fragment>
-            <Navbar/>
-            <Home/>
-            <AboutMe/>
-            <TechnicalKnowledge/>
-        </Fragment>
-    );
-}
+  return (
+    <Fragment>
+      <Navbar />
+      <Home />
+      <AboutMe />
+      <TechnicalKnowledge />
+      <WorkExperience />
+    </Fragment>
+  );
+};
 
 export default Portfolio;

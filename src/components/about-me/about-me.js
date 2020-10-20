@@ -48,8 +48,8 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <div className="mb-5" />
-      <PageBreak />
+      {/*<div className="mb-5" />
+      <PageBreak />*/}
     </Fragment>
   );
 };

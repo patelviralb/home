@@ -1,3 +1,3 @@
-import TechnicalKnowledge from "./technical-knwoledge";
+import TechnicalKnowledge from './technical-knwoledge';
 
 export default TechnicalKnowledge;

@@ -9,17 +9,20 @@ const getDataForScreenSizeGreaterThanSmall = () => {
     return (
         <div className="d-none d-md-block">
             <div className="row mb-4">
-                <div className="d-flex justify-content-center col-lg-4 offset-lg-4 col-10 offset-1">
+                <div
+                    className="d-flex justify-content-center col-lg-4 offset-lg-4 col-10 offset-1">
                     <span className="vp-home-my-name">Hey there !</span>
                 </div>
             </div>
             <div className="row mb-4">
-                <div className="d-flex justify-content-center col-lg-4 offset-lg-4 col-10 offset-1">
+                <div
+                    className="d-flex justify-content-center col-lg-4 offset-lg-4 col-10 offset-1">
                     <span className="vp-home-my-name">I'm Viral Patel</span>
                 </div>
             </div>
             <div className="row mb-4">
-                <div className="d-flex justify-content-center col-lg-6 offset-lg-3 col-12">
+                <div
+                    className="d-flex justify-content-center col-lg-6 offset-lg-3 col-12">
                     <span className="vp-home-my-position">Software Developer & Designer</span>
                 </div>
             </div>
@@ -37,7 +40,8 @@ const getDataForScreenSizeSmallerThanMedium = () => {
             </div>
             <div className="row mb-4">
                 <div className="d-flex justify-content-center col-10 offset-1">
-                    <span className="vp-home-my-name-small">I'm Viral Patel</span>
+                    <span
+                        className="vp-home-my-name-small">I'm Viral Patel</span>
                 </div>
             </div>
             <div className="row mb-4">
@@ -93,8 +97,10 @@ const Home = () => {
                 <div className="vp-home-content">
                     <div className="container">
                         <div className="row mb-4">
-                            <div className="d-flex justify-content-center col-md-4 offset-md-4 col-6 offset-3">
-                                <img className="rounded-circle w-100 h-100" src={vp_profile_image}
+                            <div
+                                className="d-flex justify-content-center col-md-4 offset-md-4 col-6 offset-3">
+                                <img className="rounded-circle w-100 h-100"
+                                     src={vp_profile_image}
                                      alt="Hey there ! I'm Viral Patel"/>
                             </div>
                         </div>
@@ -103,7 +109,8 @@ const Home = () => {
                         {getDataForScreenSizeSmallerThanMedium()}
 
                         <div className="row mb-4">
-                            <div className="d-flex justify-content-center col-md-6 offset-md-3 col-12">
+                            <div
+                                className="d-flex justify-content-center col-md-6 offset-md-3 col-12">
                                 <AnchorTag params={resume_details}/>
                             </div>
                         </div>

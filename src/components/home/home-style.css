@@ -1,44 +1,44 @@
 .vp-home-background-image {
-    /* The image used */
-    /* Downloaded from https://wallpapercave.com/w/wp3483883 */
-    background-image: url("home-backgroung-image_keyboard-mouse.jpeg");
+  /* The image used */
+  /* Downloaded from https://wallpapercave.com/w/wp3483883 */
+  background-image: url("home-backgroung-image_keyboard-mouse.jpeg");
 
-    /* Add the blur effect */
-    /*filter: blur(10px);
-    -webkit-filter: blur(10px);*/
+  /* Add the blur effect */
+  /*filter: blur(10px);
+  -webkit-filter: blur(10px);*/
 
-    /* Full height */
-    height: 100vh;
+  /* Full height */
+  height: 100vh;
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .vp-home-content {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .vp-home-my-name, .vp-home-my-position, .vp-home-my-name-small, .vp-home-my-position-small {
-    font-family: Georgia, serif;
-    font-weight: bold;
-    color: white;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  color: white;
 }
 
 .vp-home-my-name {
-    font-size: xx-large;
+  font-size: xx-large;
 }
 
 .vp-home-my-position, .vp-home-my-name-small {
-    font-size: x-large;
+  font-size: x-large;
 }
 
 .vp-home-my-position-small {
-    font-size: large;
+  font-size: large;
 }

@@ -148,7 +148,7 @@ a {
 }
 
 .timeline-card {
-  padding: 0!important;
+  padding: 0 !important;
 
   p {
     padding: 0 20px;
@@ -161,7 +161,7 @@ a {
 
 .timeline-item {
   .timeline-img-header {
-    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('https://picsum.photos/1000/800/?random') center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('https://picsum.photos/1000/800/?random') center center no-repeat;
     background-size: cover;
   }
 }

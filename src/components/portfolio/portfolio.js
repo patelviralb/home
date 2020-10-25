@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, {Fragment} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -9,15 +9,15 @@ import TechnicalKnowledge from '../technical-knowledge';
 import WorkExperience from '../work-experience/WorkExperience';
 
 const Portfolio = () => {
-  return (
-    <Fragment>
-      <Navbar />
-      <Home />
-      <AboutMe />
-      <TechnicalKnowledge />
-      <WorkExperience />
-    </Fragment>
-  );
+    return (
+        <Fragment>
+            <Navbar/>
+            <Home/>
+            <AboutMe/>
+            <TechnicalKnowledge/>
+            <WorkExperience/>
+        </Fragment>
+    );
 };
 
 export default Portfolio;

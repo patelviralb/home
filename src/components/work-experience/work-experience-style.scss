@@ -106,7 +106,6 @@ $vp-background-color: #E5E5E5;
 
 .vp-work-experience-description {
   color: $secondary-text;
-  margin-top: 2rem;
 }
 
 .vp-work-experience-description-bullets {
@@ -164,4 +163,14 @@ $vp-background-color: #E5E5E5;
       }
     }
   }
+}
+
+.vp-details-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.vp-display-details-button {
+  display: flex;
+  justify-content: center;
 }

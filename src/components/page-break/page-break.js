@@ -7,7 +7,7 @@ const PageBreak = () => {
         <Fragment>
             <div className="container">
                 <div className="row">
-                    <div className="col-12 col-md-6 offset-md-3">
+                    <div className="col-12">
                         <div className="box mt-5 mb-5">
                             <div className="box-sm violet"/>
                             <div className="box-sm indigo"/>

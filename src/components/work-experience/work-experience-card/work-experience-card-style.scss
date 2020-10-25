@@ -18,7 +18,7 @@ $vp-background-color: #E5E5E5;
         .vp-work-experience-duration {
           right: auto;
           left: 0;
-          border-radius: 10px 0 0 0;
+          border-radius: 10px 0 10px 0;
         }
   
         &::after {
@@ -83,7 +83,7 @@ $vp-background-color: #E5E5E5;
     position: absolute;
     top: 0;
     right: 0;
-    border-radius: 0 10px 0 0;
+    border-radius: 0 10px 0 10px;
   }
   
   .vp-work-experience-description {

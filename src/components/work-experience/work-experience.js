@@ -91,7 +91,7 @@ const WorkExperience = () => {
 
   return (
     <Fragment>
-      <a id="vp-my-professional-experience" />
+      <div id="vp-my-professional-experience" />
       <div className="container-fluid">
         <div className="row mt-5 mb-5">
           <div className="col-md-10 offset-md-1 col-12">

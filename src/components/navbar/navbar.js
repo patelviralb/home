@@ -43,6 +43,7 @@ const Navbar = () => {
 
         window.addEventListener('scroll', listenScrollEvent);
         window.addEventListener('resize', listenResizeEvent);
+        window.addEventListener('load', listenResizeEvent);
     }, []);
 
     return (

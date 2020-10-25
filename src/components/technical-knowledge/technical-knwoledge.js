@@ -9,7 +9,7 @@ import PageBreak from "../page-break";
 const TechnicalKnowledge = () => {
     return (
         <Fragment>
-            <a id="vp-my-technical-knowledge"/>
+            <div id="vp-my-technical-knowledge"/>
             <div className="container-fluid mt-5">
                 <div className="row">
                     <div className="col-md-10 offset-md-1 col-12">
@@ -18,7 +18,6 @@ const TechnicalKnowledge = () => {
                         </h1>
                     </div>
                 </div>
-                <a id="vp-my-programming-languages"/>
                 <div className="row mt-4">
                     <div className="col-md-10 offset-md-1 col-12">
                         <h4 className="vp-technical-knowledge-sub-heading">
@@ -32,7 +31,6 @@ const TechnicalKnowledge = () => {
                     </div>
                 </div>
 
-                <a id="vp-my-technologies-and-frameworks"/>
                 <div className="row mt-4">
                     <div className="col-md-10 offset-md-1 col-12">
                         <h4 className="vp-technical-knowledge-sub-heading">

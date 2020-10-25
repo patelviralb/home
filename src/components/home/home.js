@@ -92,7 +92,7 @@ const Home = () => {
 
     return (
         <Fragment>
-            <a id="vp-home"/>
+            <div id="vp-home" />
             <div className="vp-home-background-image">
                 <div className="vp-home-content">
                     <div className="container">
@@ -125,7 +125,7 @@ const Home = () => {
                                 }
                             </div>
                         </div>*/}
-                        <a id="vp-about-me"/>
+                        <div id="vp-about-me"/>
                     </div>
                 </div>
             </div>

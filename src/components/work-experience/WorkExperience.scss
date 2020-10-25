@@ -1,0 +1,173 @@
+$primary: #3f51b5;
+$text: #ffffff;
+$secondary-text: #757575;
+$accent: #ff4081;
+$light-primary: #c5cae9;
+
+$vp-background-color: #e5e5e5;
+
+// Timeline vertical bar
+.vp-work-experience-bar {
+  position: relative;
+
+  &::before {
+    content: "";
+    background: $light-primary;
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+// Content Card
+.vp-work-experience-item {
+  width: 100%;
+  margin-bottom: 70px;
+
+  // Move alternate card to right
+  &:nth-child(even) {
+    .vp-work-experience-content {
+      float: right;
+
+      .vp-work-experience-duration {
+        right: auto;
+        left: 0;
+        border-radius: 10px 0 0 0;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        border-style: solid;
+        width: 0;
+        height: 0;
+        top: 30px;
+        left: -15px;
+        border-width: 10px 15px 10px 0;
+        border-color: transparent $vp-background-color transparent transparent;
+      }
+    }
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+.vp-work-experience-item-bullet {
+  width: 30px;
+  height: 30px;
+  background: $primary;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 25px;
+}
+
+.vp-work-experience-content {
+  position: relative;
+  width: 45%;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background: $vp-background-color;
+  box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+
+  &::after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 30px;
+    right: -15px;
+    border-width: 10px 0 10px 15px;
+    border-color: transparent transparent transparent $vp-background-color;
+  }
+}
+
+.vp-work-experience-duration {
+  background: $accent;
+  display: inline-block;
+  color: $text;
+  padding: 13px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 10px 0 0;
+}
+
+.vp-work-experience-description {
+  color: $secondary-text;
+}
+
+.vp-work-experience-description-bullets {
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 991px) {
+  .vp-work-experience-bar {
+    &::before {
+      left: 20px;
+    }
+
+    .vp-work-experience-item-bullet {
+      left: 20px;
+    }
+
+    .vp-work-experience-content {
+      max-width: 100%;
+      width: auto;
+      margin-left: 70px;
+    }
+
+    .vp-work-experience-item {
+      &:nth-child(even) {
+        .vp-work-experience-content {
+          float: none;
+
+          .vp-work-experience-duration {
+            right: 0;
+            border-radius: 10px 10px 0 0;
+          }
+        }
+      }
+
+      &:nth-child(odd) {
+        .vp-work-experience-content {
+          .vp-work-experience-duration {
+            left: 0;
+            border-radius: 10px 10px 0 0;
+          }
+
+          &::after {
+            content: "";
+            position: absolute;
+            border-style: solid;
+            width: 0;
+            height: 0;
+            top: 30px;
+            left: -15px;
+            border-width: 10px 15px 10px 0;
+            border-color: transparent $vp-background-color transparent
+              transparent;
+          }
+        }
+      }
+    }
+  }
+}
+
+.vp-details-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.vp-display-details-button {
+  display: flex;
+  justify-content: center;
+}

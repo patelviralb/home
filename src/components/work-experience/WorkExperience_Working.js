@@ -1,9 +1,8 @@
 import React, { Fragment, useState } from "react";
 import styled from "styled-components";
 
-import "./work-experience-style.scss";
-import { Infosys, QuickBase } from "./svg/company-name-svg";
-import prolifics_logo from "./image/prolifics_web_white.png";
+import "./WorkExperience.scss";
+import { Infosys, Prolifics, QuickBase } from "./company-logos";
 
 const DetailsIcon = styled.i`
   transform: rotate(0deg);
@@ -68,7 +67,7 @@ const WorkExperience = () => {
             </h1>
           </div>
         </div>
-        <div className="row ">
+        <div className="row">
           <div className="col-md-10 offset-md-1 col-12">
             <section className="vp-work-experience-bar">
               <div className="container-fluid">
@@ -115,15 +114,7 @@ const WorkExperience = () => {
                   <div className="vp-work-experience-item-bullet" />
                   <div className="vp-work-experience-content">
                     <h4 className="mt-5 pt-4">Senior Software Engineer</h4>
-                    <img
-                      src={prolifics_logo}
-                      alt={"Prolifics"}
-                      style={{
-                        width: "150px",
-                        backgroundColor: "#4297d2",
-                      }}
-                      className="p-2"
-                    />
+                    <Prolifics />
                     {/*<h4>Prolifics</h4>*/}
                     <div className="vp-work-experience-duration">
                       November 2018 - August 2019

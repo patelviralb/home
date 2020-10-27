@@ -1,11 +1,11 @@
-$light-primary: #C5CAE9;
+$light-primary: #c5cae9;
 
 // Timeline vertical bar
 .vp-work-experience-bar {
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     background: $light-primary;
     width: 5px;
     height: 100%;
@@ -16,7 +16,6 @@ $light-primary: #C5CAE9;
 }
 
 @media screen and (max-width: 991px) {
-
   .vp-work-experience-bar {
     &::before {
       left: 20px;

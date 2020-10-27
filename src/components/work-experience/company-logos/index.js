@@ -6,7 +6,7 @@ import "./company-logo-style.css";
 export const QuickBase = () => {
   return (
     <svg
-      className="Header__logo-img"
+      className="vp-prolifics-image"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 265.56 72.25"
       style={{ fill: "#74489d", width: "100px" }}

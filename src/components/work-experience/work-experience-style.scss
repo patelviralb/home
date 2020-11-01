@@ -15,10 +15,25 @@ $light-primary: #c5cae9;
   }
 }
 
+.vp-large-screen {
+  display: block;
+}
+
+.vp-small-screen {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .vp-work-experience-bar {
     &::before {
       left: 20px;
     }
+  }
+  .vp-large-screen {
+    display: none;
+  }
+
+  .vp-small-screen {
+    display: block;
   }
 }

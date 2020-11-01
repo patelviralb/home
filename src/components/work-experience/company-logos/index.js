@@ -25,7 +25,7 @@ export const Prolifics = () => {
       src={prolifics_logo}
       alt={"Prolifics"}
       style={{
-        width: "150px",
+        width: "250px",
         backgroundColor: "#4297d2",
       }}
       className="p-2"

@@ -5,8 +5,7 @@ import "./work-experience-style.scss";
 import { work_experience } from "./work-experience-json";
 import WorkExperienceCard from "./work-experience-card";
 import PageBreak from "../page-break";
-import { Infosys, Prolifics, QuickBase } from "./company-logos";
-import prolifics_logo from "./company-logos/prolifics_web_white.png";
+import { Infosys, Prolifics } from "./company-logos";
 
 const DetailsIcon = styled.i`
   transform: rotate(0deg);
@@ -109,226 +108,570 @@ const WorkExperience = () => {
             </h1>
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-md-10 offset-md-1 col-12">
-            <section className="vp-work-experience-bar">
-              <div className="container-fluid">
-                {work_experience &&
-                  Object.keys(work_experience).map((company) => {
-                    const companyDetailsMetadata = createMetadata(company);
-                    return (
-                      <WorkExperienceCard
-                        key={company}
-                        {...companyDetailsMetadata}
-                      />
-                    );
-                  })}
-
-                {/* */}
-                <div className="vp-work-experience-item">
-                  <div className="vp-work-experience-item-bullet" />
-                  <div className="vp-work-experience-content">
-                    <div className="row">
-                      <div className="col-8">
-                        <div
-                          className="d-flex justify-content-center w-100 text-white"
-                          style={{ background: "#EF6950", padding: "13px" }}
-                        >
-                          December 2020 - December 2021
-                        </div>
-                        <div className="d-flex justify-content-center w-100 text-white">
-                          <h3 className="text-success">Prolifics</h3>
-                        </div>
-                        <div className="d-flex justify-content-center w-100 text-white">
-                          <h4 className="text-warning">
-                            Senior Software Engineer
-                          </h4>
-                        </div>
-                      </div>
-                      <div className="col-4 d-flex justify-content-center align-self-center">
-                        <img
-                          src={prolifics_logo}
-                          alt={"Prolifics"}
-                          style={{
-                            backgroundColor: "#4297d2",
-                          }}
-                          className="p-2"
-                        />
+            <div className="row">
+              <div className="col-12">
+                <div className="card shadow rounded container-fluid">
+                  <div className="row">
+                    <div className="col-12 col-lg-4 d-flex justify-content-center">
+                      <div className="align-self-center mt-4 mt-lg-0">
+                        <Prolifics />
                       </div>
                     </div>
-                    <div className="row">
-                      <div className="col-12">
-                        <div className="vp-display-details-button">
+                    <div className="col-12 col-lg-8">
+                      <div className="card-body">
+                        <div className="d-flex justify-content-center justify-content-lg-end">
+                          <h3>Prolifics</h3>
+                        </div>
+                        <div className="d-flex justify-content-center justify-content-lg-end">
+                          <h4>Senior Software Engineer</h4>
+                        </div>
+                        <div className="d-flex justify-content-center justify-content-lg-end">
+                          <h5>November 2018 - August 2019</h5>
+                        </div>
+                        <div className="d-flex justify-content-center">
                           <button
                             data-toggle="collapse"
-                            data-target={`#vp-show-work-experience`}
+                            data-target={`#vp-prolifics-work-experience`}
                             aria-expanded="false"
                             className="btn vp-details-button"
-                            onClick={() => {}}
+                            onClick={() => onToggleButtonClick("PROLIFICS")}
                           >
-                            {qbWorkExperience} DETAILS
+                            {prolificsWorkExperience} DETAILS
                             <DetailsIcon
-                              details={qbWorkExperience}
+                              details={prolificsWorkExperience}
                               className={`ml-2 fas fa-chevron-down`}
                             />
                           </button>
                         </div>
-                        <blockquote className="vp-work-experience-description">
-                          <ul
-                            className="collapse"
-                            id={`vp-show-work-experience`}
-                          >
-                            <li className="vp-work-experience-description-bullets">
-                              Lorem Ipsum is simply dummy text of the printing
-                              and typesetting industry.
-                            </li>
-                            <li className="vp-work-experience-description-bullets">
-                              Lorem Ipsum is simply dummy text of the printing
-                              and typesetting industry. Lorem Ipsum has been the
-                              industry's standard dummy text ever since the
-                              1500s, when an unknown printer took a galley of
-                              type and scrambled it to make a type specimen
-                              book.
-                            </li>
-                          </ul>
-                        </blockquote>
+                        <ul
+                          className="card-text text-justify collapse"
+                          id={`vp-prolifics-work-experience`}
+                        >
+                          <li>
+                            Consulted for Health Insurance Company for creating
+                            claim processing infrastructures
+                          </li>
+                          <li>
+                            Created a unique solution to track Medicare claims
+                            using ITX/IBM WTX and MySQL
+                          </li>
+                          <li>Worked on JSON, XML, CSV and ANSI X12 files</li>
+                        </ul>
                       </div>
                     </div>
                   </div>
                 </div>
-
-                {/* */}
-
-                <div className="vp-work-experience-item">
-                  <div className="vp-work-experience-item-bullet" />
-                  <div className="vp-work-experience-content">
-                    <div className="row">
-                      <div className="col-4 d-flex justify-content-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row mt-3">
+          <div className="col-md-10 offset-md-1 col-12">
+            <div className="row">
+              <div className="col-12">
+                <div className="card shadow rounded container-fluid">
+                  <div className="row">
+                    <div className="col-12 col-lg-8">
+                      <div className="card-body">
+                        <div className="d-flex justify-content-center justify-content-lg-end">
+                          <h3>Prolifics</h3>
+                        </div>
+                        <div className="d-flex justify-content-center justify-content-lg-end">
+                          <h4>Senior Software Engineer</h4>
+                        </div>
+                        <div className="d-flex justify-content-center justify-content-lg-end">
+                          <h5>November 2018 - August 2019</h5>
+                        </div>
+                        <div className="d-flex justify-content-center">
+                          <button
+                            data-toggle="collapse"
+                            data-target={`#vp-prolifics-work-experience`}
+                            aria-expanded="false"
+                            className="btn vp-details-button"
+                            onClick={() => onToggleButtonClick("PROLIFICS")}
+                          >
+                            {prolificsWorkExperience} DETAILS
+                            <DetailsIcon
+                              details={prolificsWorkExperience}
+                              className={`ml-2 fas fa-chevron-down`}
+                            />
+                          </button>
+                        </div>
+                        <ul
+                          className="card-text text-justify collapse"
+                          id={`vp-prolifics-work-experience`}
+                        >
+                          <li>
+                            Consulted for Health Insurance Company for creating
+                            claim processing infrastructures
+                          </li>
+                          <li>
+                            Created a unique solution to track Medicare claims
+                            using ITX/IBM WTX and MySQL
+                          </li>
+                          <li>Worked on JSON, XML, CSV and ANSI X12 files</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="col-12 col-lg-4 d-flex justify-content-center">
+                      <div className="align-self-center mt-4 mt-lg-0">
                         <Infosys />
                       </div>
-                      <div className="col-8">
-                        <div
-                          className="d-flex justify-content-center w-100 text-white"
-                          style={{ background: "#EF6950", padding: "13px" }}
-                        >
-                          December 2020 - December 2021
-                        </div>
-                        <div className="d-flex justify-content-center w-100 text-white">
-                          <h3 className="text-success">Infosys Ltd.</h3>
-                        </div>
-                        <div className="d-flex justify-content-center w-100 text-white">
-                          <h4 className="text-warning">Technology Analyst</h4>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="row">
-                      <div className="col-12">
-                        <div className="vp-display-details-button">
-                          <button
-                            data-toggle="collapse"
-                            data-target={`#vp-show-work-experience`}
-                            aria-expanded="false"
-                            className="btn vp-details-button"
-                            onClick={() => {}}
-                          >
-                            {qbWorkExperience} DETAILS
-                            <DetailsIcon
-                              details={qbWorkExperience}
-                              className={`ml-2 fas fa-chevron-down`}
-                            />
-                          </button>
-                        </div>
-                        <blockquote className="vp-work-experience-description">
-                          <ul
-                            className="collapse"
-                            id={`vp-show-work-experience`}
-                          >
-                            <li className="vp-work-experience-description-bullets">
-                              Lorem Ipsum is simply dummy text of the printing
-                              and typesetting industry.
-                            </li>
-                            <li className="vp-work-experience-description-bullets">
-                              Lorem Ipsum is simply dummy text of the printing
-                              and typesetting industry. Lorem Ipsum has been the
-                              industry's standard dummy text ever since the
-                              1500s, when an unknown printer took a galley of
-                              type and scrambled it to make a type specimen
-                              book.
-                            </li>
-                          </ul>
-                        </blockquote>
-                      </div>
                     </div>
                   </div>
                 </div>
-
-                {/* */}
-
-                <div className="vp-work-experience-item">
-                  <div className="vp-work-experience-item-bullet" />
-                  <div className="vp-work-experience-content">
-                    <div className="row">
-                      <div className="col-8">
-                        <div
-                          className="d-flex justify-content-center w-100 text-white"
-                          style={{ background: "#EF6950", padding: "13px" }}
-                        >
-                          December 2020 - December 2021
-                        </div>
-                        <div className="d-flex justify-content-center w-100 text-white">
-                          <h3 className="text-success">Quick Base</h3>
-                        </div>
-                        <div className="d-flex justify-content-center w-100 text-white">
-                          <h4 className="text-warning">Software Engineer Co-op</h4>
-                        </div>
-                      </div>
-                      <div className="col-4 d-flex justify-content-center">
-                        <QuickBase />
-                      </div>
-                    </div>
-                    <div className="row">
-                      <div className="col-12">
-                        <div className="vp-display-details-button">
-                          <button
-                            data-toggle="collapse"
-                            data-target={`#vp-show-work-experience`}
-                            aria-expanded="false"
-                            className="btn vp-details-button"
-                            onClick={() => {}}
-                          >
-                            {qbWorkExperience} DETAILS
-                            <DetailsIcon
-                              details={qbWorkExperience}
-                              className={`ml-2 fas fa-chevron-down`}
-                            />
-                          </button>
-                        </div>
-                        <blockquote className="vp-work-experience-description">
-                          <ul
-                            className="collapse"
-                            id={`vp-show-work-experience`}
-                          >
-                            <li className="vp-work-experience-description-bullets">
-                              Lorem Ipsum is simply dummy text of the printing
-                              and typesetting industry.
-                            </li>
-                            <li className="vp-work-experience-description-bullets">
-                              Lorem Ipsum is simply dummy text of the printing
-                              and typesetting industry. Lorem Ipsum has been the
-                              industry's standard dummy text ever since the
-                              1500s, when an unknown printer took a galley of
-                              type and scrambled it to make a type specimen
-                              book.
-                            </li>
-                          </ul>
-                        </blockquote>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* */}
               </div>
-            </section>
+            </div>
+          </div>
+        </div>
+        <div className="row mt-3">
+          <div className="col-md-10 offset-md-1 col-12">
+            <div className="row">
+              <div className="col-12">
+                <div className="card shadow rounded container-fluid">
+                  <div className="row">
+                    <div className="col-12 col-lg-4 d-flex justify-content-center">
+                      <div className="align-self-center mt-4 mt-lg-0">
+                        <Infosys />
+                      </div>
+                    </div>
+                    <div className="col-12 col-lg-8">
+                      <div className="card-body">
+                        <div className="d-flex justify-content-center">
+                          <h3>Prolifics</h3>
+                        </div>
+                        <div className="d-flex justify-content-center">
+                          <h4>Senior Software Engineer</h4>
+                        </div>
+                        <div className="d-flex justify-content-center">
+                          <h5>November 2018 - August 2019</h5>
+                        </div>
+                        <div className="d-flex justify-content-center">
+                          <button
+                            data-toggle="collapse"
+                            data-target={`#vp-prolifics-work-experience`}
+                            aria-expanded="false"
+                            className="btn vp-details-button"
+                            onClick={() => onToggleButtonClick("PROLIFICS")}
+                          >
+                            {prolificsWorkExperience} DETAILS
+                            <DetailsIcon
+                              details={prolificsWorkExperience}
+                              className={`ml-2 fas fa-chevron-down`}
+                            />
+                          </button>
+                        </div>
+                        <ul
+                          className="card-text text-justify collapse"
+                          id={`vp-prolifics-work-experience`}
+                        >
+                          <li>
+                            Consulted for Health Insurance Company for creating
+                            claim processing infrastructures
+                          </li>
+                          <li>
+                            Created a unique solution to track Medicare claims
+                            using ITX/IBM WTX and MySQL
+                          </li>
+                          <li>Worked on JSON, XML, CSV and ANSI X12 files</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row mt-3">
+          <div className="col-md-10 offset-md-1 col-12">
+            <div className="row">
+              <div className="col-12">
+                <div className="card shadow rounded container-fluid">
+                  <div className="row">
+                    <div className="col-12 col-lg-8">
+                      <div className="card-body">
+                        <div className="d-flex justify-content-center">
+                          <h3>Prolifics</h3>
+                        </div>
+                        <div className="d-flex justify-content-center">
+                          <h4>Senior Software Engineer</h4>
+                        </div>
+                        <div className="d-flex justify-content-center">
+                          <h5>November 2018 - August 2019</h5>
+                        </div>
+                        <div className="d-flex justify-content-center">
+                          <button
+                            data-toggle="collapse"
+                            data-target={`#vp-prolifics-work-experience`}
+                            aria-expanded="false"
+                            className="btn vp-details-button"
+                            onClick={() => onToggleButtonClick("PROLIFICS")}
+                          >
+                            {prolificsWorkExperience} DETAILS
+                            <DetailsIcon
+                              details={prolificsWorkExperience}
+                              className={`ml-2 fas fa-chevron-down`}
+                            />
+                          </button>
+                        </div>
+                        <ul
+                          className="card-text text-justify collapse"
+                          id={`vp-prolifics-work-experience`}
+                        >
+                          <li>
+                            Consulted for Health Insurance Company for creating
+                            claim processing infrastructures
+                          </li>
+                          <li>
+                            Created a unique solution to track Medicare claims
+                            using ITX/IBM WTX and MySQL
+                          </li>
+                          <li>Worked on JSON, XML, CSV and ANSI X12 files</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="col-12 col-lg-4 d-flex justify-content-center">
+                      <div className="align-self-center mt-4 mt-lg-0">
+                        <Infosys />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row mt-3">
+          <div className="col-md-10 offset-md-1 col-12">
+            <div className="row">
+              <div className="col-12">
+                <div className="card shadow rounded container-fluid">
+                  <div className="row">
+                    <div className="col-12 col-lg-4 d-flex justify-content-center">
+                      <div className="align-self-center mt-4 mt-lg-0">
+                        <Infosys />
+                      </div>
+                    </div>
+                    <div className="col-12 col-lg-8">
+                      <div className="card-body">
+                        <div className="d-flex justify-content-center justify-content-lg-start">
+                          <h3>Prolifics</h3>
+                        </div>
+                        <div className="d-flex justify-content-center justify-content-lg-start">
+                          <h4>Senior Software Engineer</h4>
+                        </div>
+                        <div className="d-flex justify-content-center justify-content-lg-start">
+                          <h5>November 2018 - August 2019</h5>
+                        </div>
+                        <div className="d-flex justify-content-center">
+                          <button
+                            data-toggle="collapse"
+                            data-target={`#vp-prolifics-work-experience`}
+                            aria-expanded="false"
+                            className="btn vp-details-button"
+                            onClick={() => onToggleButtonClick("PROLIFICS")}
+                          >
+                            {prolificsWorkExperience} DETAILS
+                            <DetailsIcon
+                              details={prolificsWorkExperience}
+                              className={`ml-2 fas fa-chevron-down`}
+                            />
+                          </button>
+                        </div>
+                        <ul
+                          className="card-text text-justify collapse"
+                          id={`vp-prolifics-work-experience`}
+                        >
+                          <li>
+                            Consulted for Health Insurance Company for creating
+                            claim processing infrastructures
+                          </li>
+                          <li>
+                            Created a unique solution to track Medicare claims
+                            using ITX/IBM WTX and MySQL
+                          </li>
+                          <li>Worked on JSON, XML, CSV and ANSI X12 files</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row mt-3">
+          <div className="col-md-10 offset-md-1 col-12">
+            <div className="row">
+              <div className="col-12">
+                <div className="card shadow rounded container-fluid">
+                  <div className="row">
+                    <div className="col-12 col-lg-8">
+                      <div className="card-body">
+                        <div className="d-flex justify-content-center justify-content-lg-start">
+                          <h3>Prolifics</h3>
+                        </div>
+                        <div className="d-flex justify-content-center justify-content-lg-start">
+                          <h4>Senior Software Engineer</h4>
+                        </div>
+                        <div className="d-flex justify-content-center justify-content-lg-start">
+                          <h5>November 2018 - August 2019</h5>
+                        </div>
+                        <div className="d-flex justify-content-center">
+                          <button
+                            data-toggle="collapse"
+                            data-target={`#vp-prolifics-work-experience`}
+                            aria-expanded="false"
+                            className="btn vp-details-button"
+                            onClick={() => onToggleButtonClick("PROLIFICS")}
+                          >
+                            {prolificsWorkExperience} DETAILS
+                            <DetailsIcon
+                              details={prolificsWorkExperience}
+                              className={`ml-2 fas fa-chevron-down`}
+                            />
+                          </button>
+                        </div>
+                        <ul
+                          className="card-text text-justify collapse"
+                          id={`vp-prolifics-work-experience`}
+                        >
+                          <li>
+                            Consulted for Health Insurance Company for creating
+                            claim processing infrastructures
+                          </li>
+                          <li>
+                            Created a unique solution to track Medicare claims
+                            using ITX/IBM WTX and MySQL
+                          </li>
+                          <li>Worked on JSON, XML, CSV and ANSI X12 files</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="col-12 col-lg-4 d-flex justify-content-center">
+                      <div className="align-self-center mt-4 mt-lg-0">
+                        <Infosys />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row mt-3">
+          <div className="col-md-10 offset-md-1 col-12">
+            <div className="row">
+              <div className="col-12">
+                <div className="card shadow rounded container-fluid">
+                  <div className="row">
+                    <div className="col-12 col-lg-4 d-flex justify-content-center">
+                      <div className="align-self-center mt-4 mt-lg-0">
+                        <Infosys />
+                      </div>
+                    </div>
+                    <div className="col-12 col-lg-8">
+                      <div className="card-body">
+                        <div className="d-flex justify-content-center justify-content-lg-start">
+                          <h3>Prolifics</h3>
+                        </div>
+                        <div className="d-flex justify-content-center justify-content-lg-start">
+                          <h4>Senior Software Engineer</h4>
+                        </div>
+                        <div className="d-flex justify-content-center justify-content-lg-start">
+                          <h5>November 2018 - August 2019</h5>
+                        </div>
+                        <div className="d-flex justify-content-center">
+                          <button
+                            data-toggle="collapse"
+                            data-target={`#vp-prolifics-work-experience`}
+                            aria-expanded="false"
+                            className="btn vp-details-button"
+                            onClick={() => onToggleButtonClick("PROLIFICS")}
+                          >
+                            {prolificsWorkExperience} DETAILS
+                            <DetailsIcon
+                              details={prolificsWorkExperience}
+                              className={`ml-2 fas fa-chevron-down`}
+                            />
+                          </button>
+                        </div>
+                        <ul
+                          className="card-text text-justify collapse"
+                          id={`vp-prolifics-work-experience`}
+                        >
+                          <li>
+                            Consulted for Health Insurance Company for creating
+                            claim processing infrastructures
+                          </li>
+                          <li>
+                            Created a unique solution to track Medicare claims
+                            using ITX/IBM WTX and MySQL
+                          </li>
+                          <li>Worked on JSON, XML, CSV and ANSI X12 files</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row mt-3">
+          <div className="col-md-10 offset-md-1 col-12">
+            <div className="row">
+              <div className="col-12">
+                <div className="card shadow rounded container-fluid">
+                  <div className="row">
+                    <div className="col-12 col-lg-8">
+                      <div className="card-body">
+                        <div className="d-flex justify-content-center justify-content-lg-end">
+                          <h3>Prolifics</h3>
+                        </div>
+                        <div className="d-flex justify-content-center justify-content-lg-end">
+                          <h4>Senior Software Engineer</h4>
+                        </div>
+                        <div className="d-flex justify-content-center justify-content-lg-end">
+                          <h5>November 2018 - August 2019</h5>
+                        </div>
+                        <div className="d-flex justify-content-center">
+                          <button
+                            data-toggle="collapse"
+                            data-target={`#vp-prolifics-work-experience`}
+                            aria-expanded="false"
+                            className="btn vp-details-button"
+                            onClick={() => onToggleButtonClick("PROLIFICS")}
+                          >
+                            {prolificsWorkExperience} DETAILS
+                            <DetailsIcon
+                              details={prolificsWorkExperience}
+                              className={`ml-2 fas fa-chevron-down`}
+                            />
+                          </button>
+                        </div>
+                        <ul
+                          className="card-text text-justify collapse"
+                          id={`vp-prolifics-work-experience`}
+                        >
+                          <li>
+                            Consulted for Health Insurance Company for creating
+                            claim processing infrastructures
+                          </li>
+                          <li>
+                            Created a unique solution to track Medicare claims
+                            using ITX/IBM WTX and MySQL
+                          </li>
+                          <li>Worked on JSON, XML, CSV and ANSI X12 files</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="col-12 col-lg-4 d-flex justify-content-center">
+                      <div className="align-self-center mt-4 mt-lg-0">
+                        <Infosys />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> */}
+
+        <div className="vp-large-screen">
+          <div className="row mt-3">
+            <div className="col-md-10 offset-md-1 col-12">
+              <div className="row">
+                <div className="col-12">
+                  <div className="card shadow rounded container-fluid">
+                    <div className="row">
+                      <div className="col-lg-4 d-flex justify-content-center">
+                        <div className="align-self-center mt-4 mt-lg-0">
+                          <Infosys />
+                        </div>
+                      </div>
+                      <div className="col-lg-8 d-flex justify-content-center">
+                        <div className="align-self-center mt-4 mt-lg-0">
+                          <h1>Data</h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row mt-3">
+            <div className="col-md-10 offset-md-1 col-12">
+              <div className="row">
+                <div className="col-12">
+                  <div className="card shadow rounded container-fluid">
+                    <div className="row">
+                      <div className="col-lg-8 d-flex justify-content-center">
+                        <div className="align-self-center mt-4 mt-lg-0">
+                          <h1>Data</h1>
+                        </div>
+                      </div>
+                      <div className="col-lg-4 d-flex justify-content-center">
+                        <div className="align-self-center mt-4 mt-lg-0">
+                          <Infosys />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="vp-small-screen">
+          <div className="row mt-3">
+            <div className="col-md-10 offset-md-1 col-12">
+              <div className="row">
+                <div className="col-12">
+                  <div className="card shadow rounded container-fluid">
+                    <div className="row">
+                      <div className="col-12 d-flex justify-content-center">
+                        <div className="align-self-center mt-4 mt-lg-0">
+                          <Infosys />
+                        </div>
+                      </div>
+                      <div className="col-12 d-flex justify-content-center">
+                        <div className="align-self-center mt-4 mt-lg-0">
+                          <h1>Data</h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row mt-3">
+            <div className="col-md-10 offset-md-1 col-12">
+              <div className="row">
+                <div className="col-12">
+                  <div className="card shadow rounded container-fluid">
+                    <div className="row">
+                      <div className="col-12 d-flex justify-content-center">
+                        <div className="align-self-center mt-4 mt-lg-0">
+                          <Infosys />
+                        </div>
+                      </div>
+                      <div className="col-12 d-flex justify-content-center">
+                        <div className="align-self-center mt-4 mt-lg-0">
+                          <h1>Data</h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

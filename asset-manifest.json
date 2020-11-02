@@ -1,27 +1,30 @@
 {
   "files": {
     "main.css": "/home/static/css/main.d74d4b47.chunk.css",
-    "main.js": "/home/static/js/main.a18c2a3f.chunk.js",
-    "main.js.map": "/home/static/js/main.a18c2a3f.chunk.js.map",
+    "main.js": "/home/static/js/main.5912d558.chunk.js",
+    "main.js.map": "/home/static/js/main.5912d558.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.1e703b0d.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.1e703b0d.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/home/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.2e049eda.chunk.js": "/home/static/js/2.2e049eda.chunk.js",
-    "static/js/2.2e049eda.chunk.js.map": "/home/static/js/2.2e049eda.chunk.js.map",
+    "static/js/2.fe84196b.chunk.js": "/home/static/js/2.fe84196b.chunk.js",
+    "static/js/2.fe84196b.chunk.js.map": "/home/static/js/2.fe84196b.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.5db1b6c9824970f87682e3a8aa21107e.js": "/home/precache-manifest.5db1b6c9824970f87682e3a8aa21107e.js",
+    "precache-manifest.be3752d1dee9b426c41096e04da4fb62.js": "/home/precache-manifest.be3752d1dee9b426c41096e04da4fb62.js",
     "service-worker.js": "/home/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/home/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.d74d4b47.chunk.css.map": "/home/static/css/main.d74d4b47.chunk.css.map",
-    "static/js/2.2e049eda.chunk.js.LICENSE.txt": "/home/static/js/2.2e049eda.chunk.js.LICENSE.txt",
+    "static/js/2.fe84196b.chunk.js.LICENSE.txt": "/home/static/js/2.fe84196b.chunk.js.LICENSE.txt",
     "static/media/home-backgroung-image_keyboard-mouse.jpeg": "/home/static/media/home-backgroung-image_keyboard-mouse.4777d97b.jpeg",
+    "static/media/northeastern-university.png": "/home/static/media/northeastern-university.f18c61bc.png",
+    "static/media/sbmp.jpg": "/home/static/media/sbmp.a8c01dde.jpg",
+    "static/media/university-of-mumbai.png": "/home/static/media/university-of-mumbai.d1a78952.png",
     "static/media/vp-profile-image.jpg": "/home/static/media/vp-profile-image.e9509129.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1e703b0d.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.2e049eda.chunk.js",
+    "static/js/2.fe84196b.chunk.js",
     "static/css/main.d74d4b47.chunk.css",
-    "static/js/main.a18c2a3f.chunk.js"
+    "static/js/main.5912d558.chunk.js"
   ]
 }

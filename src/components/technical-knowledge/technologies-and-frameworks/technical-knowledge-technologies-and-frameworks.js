@@ -67,7 +67,7 @@ const createTechnologiesAndFrameworkCard = (input) => {
 
 const TechnicalKnowledgeTechnologiesAndFrameworks = () => {
     return (
-        <div className="container-fluid ml-n3 mt-4">
+        <div className="container-fluid mt-4">
             <div className="row">
                 <div className="col-12 col-md-6 col-lg-3">
                     <div className="card shadow rounded">{createTechnologiesAndFrameworkCard("Git VCS")}</div>

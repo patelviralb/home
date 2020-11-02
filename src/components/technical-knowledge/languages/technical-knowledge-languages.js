@@ -35,7 +35,7 @@ const createLanguageCard = (language) => {
 
 const TechnicalKnowledgeLanguages = () => {
     return (
-        <div className="container-fluid ml-n3 mt-4">
+        <div className="container-fluid mt-4">
             <div className="row">
 
                 <div className="col-12 col-md-6 col-lg-3">

@@ -42,6 +42,7 @@ const Navbar = () => {
 
     window.addEventListener("scroll", listenScrollEvent);
     window.addEventListener("resize", listenResizeEvent);
+    HandleNavbarColorChangeEvents();
 
     return () => {
       window.removeEventListener("scroll");

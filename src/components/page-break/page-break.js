@@ -1,27 +1,33 @@
-import React, {Fragment} from "react";
+import React, { Fragment } from "react";
 
-import "./page-break-style.css";
+import { Partition, PartitionBox } from "../styled/page-break";
 
 const PageBreak = () => {
-    return (
-        <Fragment>
-            <div className="container">
-                <div className="row">
-                    <div className="col-12 col-md-6 offset-md-3">
-                        <div className="box mt-5 mb-5">
-                            <div className="box-sm violet"/>
-                            <div className="box-sm indigo"/>
-                            <div className="box-sm blue"/>
-                            <div className="box-sm green"/>
-                            <div className="box-sm yellow"/>
-                            <div className="box-sm orange"/>
-                            <div className="box-sm red"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </Fragment>
-    );
-}
+  const colors = [
+    "violet",
+    "indigo",
+    "#0089d7",
+    "#3dcd49",
+    "#ffd300",
+    "#ff9000",
+    "#ff5852",
+  ];
+  return (
+    <Fragment>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <Partition>
+              {colors &&
+                colors.map((color, index) => (
+                  <PartitionBox key={index} color={color} />
+                ))}
+            </Partition>
+          </div>
+        </div>
+      </div>
+    </Fragment>
+  );
+};
 
 export default PageBreak;

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const AboutMeParagraph = styled.div`
   font-family: Cambria, Georgia, serif;

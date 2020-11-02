@@ -1,6 +1,9 @@
 import React from "react";
 
-import { CenterAlignedContainer, DownloadResumeButtonText } from "../styled/home";
+import {
+  CenterAlignedContainer,
+  DownloadResumeButtonText,
+} from "../styled/home";
 
 const DownloadResumeButton = () => {
   return (

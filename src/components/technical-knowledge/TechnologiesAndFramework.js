@@ -4,7 +4,7 @@ import TechnologiesAndFrameworks from "./technologies-and-frameworks";
 import {
     CenterAlignedContainer,
     TechnicalKnowledgeSubHeading,
-} from "../styled/technical-knowledge";
+} from "../styles/technical-knowledge";
 
 const TechnologiesAndFramework = () => {
     return (

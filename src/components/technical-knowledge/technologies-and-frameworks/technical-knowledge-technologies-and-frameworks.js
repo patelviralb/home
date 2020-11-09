@@ -12,7 +12,7 @@ import {
     ReactJs,
     Redux,
 } from "../svg/technical-knowledge-svg";
-import {Proficiency} from "../../styled/technical-knowledge";
+import {Proficiency} from "../../styles/technical-knowledge";
 
 const createTechnologiesAndFrameworkCard = (input) => {
     let technologyAndFrameworkProficiency;

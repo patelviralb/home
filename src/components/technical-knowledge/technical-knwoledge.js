@@ -2,7 +2,7 @@ import React, {Fragment} from "react";
 
 import TechnologiesAndFramework from "./TechnologiesAndFramework";
 import ProgrammingLanguages from "./ProgrammingLanguages";
-import {TechnicalKnowledgeHeading} from "../styled/technical-knowledge";
+import {TechnicalKnowledgeHeading} from "../styles/technical-knowledge";
 import PageBreak from "../page-break";
 
 const TechnicalKnowledge = () => {

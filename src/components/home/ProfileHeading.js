@@ -6,7 +6,7 @@ import {
     FontContainer,
     Name,
     Position,
-} from "../styled/home";
+} from "../styles/home";
 
 const ProfileHeading = () => {
     return (

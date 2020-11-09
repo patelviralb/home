@@ -6,7 +6,7 @@ import Navbar from "../../containers/navbar";
 import Home from "../home";
 import AboutMe from "../about-me";
 import TechnicalKnowledge from "../technical-knowledge";
-import Education from "../../containers/education";
+import WorkExperience from "../../containers/work-experience";
 
 const Portfolio = () => {
   return (
@@ -15,7 +15,7 @@ const Portfolio = () => {
       <Home />
       <AboutMe />
       <TechnicalKnowledge />
-      <Education />
+      <WorkExperience />
     </Fragment>
   );
 };

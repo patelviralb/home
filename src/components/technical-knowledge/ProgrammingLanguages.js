@@ -4,7 +4,7 @@ import Languages from "./languages";
 import {
     CenterAlignedContainer,
     TechnicalKnowledgeSubHeading,
-} from "../styled/technical-knowledge";
+} from "../styles/technical-knowledge";
 
 const ProgrammingLanguages = () => {
     return (

@@ -1,6 +1,6 @@
 import React, {Fragment} from "react";
 
-import {Partition, PartitionBox} from "../styled/page-break";
+import {Partition, PartitionBox} from "../styles/page-break";
 
 const PageBreak = () => {
     const colors = [

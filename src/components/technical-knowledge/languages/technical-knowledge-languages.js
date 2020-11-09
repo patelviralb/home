@@ -6,7 +6,7 @@ import {
     JavaSvg,
     PythonSvg,
 } from "../svg/technical-knowledge-svg";
-import {Proficiency} from "../../styled/technical-knowledge";
+import {Proficiency} from "../../styles/technical-knowledge";
 
 const createLanguageCard = (language) => {
     let languageProficiency;

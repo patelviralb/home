@@ -1,6 +1,6 @@
 import React, {Fragment} from "react";
 
-import {AboutMeParagraph} from "../styled/about-me";
+import {AboutMeParagraph} from "../styles/about-me";
 import PageBreak from "../page-break";
 
 const AboutMe = () => {

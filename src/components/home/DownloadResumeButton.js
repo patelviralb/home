@@ -3,7 +3,7 @@ import React from "react";
 import {
     CenterAlignedContainer,
     DownloadResumeButtonText,
-} from "../styled/home";
+} from "../styles/home";
 
 const DownloadResumeButton = () => {
     return (

@@ -8,7 +8,7 @@ import {
   Date,
   Image,
   CenterAlignedContainer,
-} from "../../components/styled/education";
+} from "../../components/styles/education";
 import neu_image from "./northeastern-university.png";
 import sbmp_image from "./sbmp.jpg";
 import mu_image from "./university-of-mumbai.png";

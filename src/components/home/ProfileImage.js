@@ -1,7 +1,7 @@
 import React from "react";
 
 import vp_profile_image from "./vp-profile-image.jpg";
-import { CenterAlignedContainer } from "../styled/home";
+import { CenterAlignedContainer } from "../styles/home";
 
 const ProfileImage = () => {
   return (

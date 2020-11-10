@@ -7,11 +7,8 @@ import {
 } from "../../components/styles/reuse";
 import {
   CompanyHeadingH5,
-  CompanyHeadingH6,
   DetailsIcon,
   UnorderedList,
-  CompanyHeadingContainerLarge,
-  CompanyHeadingContainerSmall,
 } from "../../components/styles/work-experience";
 import {
   QuickBase,

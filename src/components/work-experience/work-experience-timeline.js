@@ -1,0 +1,26 @@
+import React from "react";
+
+import { TimelineBar } from "../styles/reuse";
+import WorkExperienceDetails from "./work-experience-details.json";
+import WorkExperienceItem from "../../containers/work-experience";
+
+const WorkExperienceTimeline = () => {
+  return (
+    <TimelineBar>
+      <div className="container-fluid">
+        {WorkExperienceDetails &&
+          Object.keys(WorkExperienceDetails).map((company, index) => {
+            return (
+              <WorkExperienceItem
+                key={index}
+                company={company}
+                companyDetails={WorkExperienceDetails[company]}
+              />
+            );
+          })}
+      </div>
+    </TimelineBar>
+  );
+};
+
+export default WorkExperienceTimeline;

@@ -1,3 +1,3 @@
-import WorkExperience from "./work-experience";
+import WorkExperienceItem from "./work-experience-item";
 
-export default WorkExperience;
+export default WorkExperienceItem;

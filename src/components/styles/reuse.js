@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
+export const SectionHeadingH1 = styled.h1`
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  text-justify: inter-word;
+  color: rgba(0, 0, 0, 0.54);
+`;
+
 export const CenterAlignedContainer = styled.div`
   display: flex;
   justify-content: center;

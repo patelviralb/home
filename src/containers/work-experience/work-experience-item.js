@@ -6,9 +6,12 @@ import {
   TimelineContent,
 } from "../../components/styles/reuse";
 import {
-  CompanyHeading,
+  CompanyHeadingH5,
+  CompanyHeadingH6,
   DetailsIcon,
   UnorderedList,
+  CompanyHeadingContainerLarge,
+  CompanyHeadingContainerSmall,
 } from "../../components/styles/work-experience";
 import {
   QuickBase,
@@ -110,13 +113,15 @@ const WorkExperienceItem = (props) => {
         <TimelineBullet />
         <TimelineContent>
           <div className="row mt-3">
-            <div className="col-12 col-lg-4 d-flex justify-content-center flex-column">
+            <div className="col-12 d-flex justify-content-center flex-column">
               {companyLogo(props.company)}
             </div>
-            <div className="col-12 col-lg-8 d-flex justify-content-center flex-column">
-              <CompanyHeading>{companyDetails.companyName}</CompanyHeading>
-              <CompanyHeading>{companyDetails.position}</CompanyHeading>
-              <CompanyHeading>{companyDetails.duration}</CompanyHeading>
+          </div>
+          <div className="row mt-3">
+            <div className="col-12 d-flex justify-content-center flex-column">
+              <CompanyHeadingH5>{companyDetails.companyName}</CompanyHeadingH5>
+              <CompanyHeadingH5>{companyDetails.position}</CompanyHeadingH5>
+              <CompanyHeadingH5>{companyDetails.duration}</CompanyHeadingH5>
             </div>
           </div>
           <div className="row mt-2">

@@ -11,12 +11,13 @@ export const CenterAlignedContainer = styled.div`
   justify-content: center;
 `;
 
-export const CompanyHeading = styled.h5`
+export const CompanyHeadingH5 = styled.h5`
   font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
   font-weight: bold;
   text-justify: inter-word;
   color: rgba(0, 0, 0, 0.54);
   align-self: center;
+  margin-top: 0.5rem;
 `;
 
 export const DetailsIcon = styled.i`
@@ -27,31 +28,51 @@ export const DetailsIcon = styled.i`
 
 export const QuickBaseSvg = styled.svg`
   fill: #74489d;
-  align-self: center;
 `;
 
 export const KhouryImage = styled.img`
-  width: 200px;
+  width: 50%;
+  align-self: center;
 `;
 
 export const ProlificsImage = styled.img`
   background: #4297d2;
-  width: 200px;
+  width: 75%;
   padding: 0.5rem;
 `;
 
 export const CompanyLogoAnchor = styled.a`
   outline: 0;
+  align-self: center;
+  display: flex;
+  justify-content: center;
 `;
 
 export const InfosysSvg = styled.svg`
   background: #0070b7;
-  align-self: center;
-  width: 100px;
-  height: 100px;
+  width: 125px;
+  height: 125px;
   padding: 0.5rem;
 `;
 
 export const UnorderedList = styled.ul`
   border-left: 10px solid #303f9f;
+`;
+
+export const CompanyHeadingContainerLarge = styled.div`
+  @media screen and (min-width: 991px) {
+    display: block;
+  }
+  @media screen and (max-width: 991px) {
+    display: none;
+  }
+`;
+
+export const CompanyHeadingContainerSmall = styled.div`
+  @media screen and (max-width: 991px) {
+    display: block;
+  }
+  @media screen and (min-width: 991px) {
+    display: none;
+  }
 `;

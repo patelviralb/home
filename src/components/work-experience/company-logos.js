@@ -15,7 +15,6 @@ export const QuickBase = () => (
     href="https://www.quickbase.com/"
     target="_blank"
     rel="noopener noreferrer"
-    style={{ width: "50%" }}
   >
     <QuickBaseSvg className="Header__logo-img" viewBox="0 0 265.56 72.25">
       <path

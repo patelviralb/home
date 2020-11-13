@@ -28,17 +28,39 @@ export const DetailsIcon = styled.i`
 
 export const QuickBaseSvg = styled.svg`
   fill: #74489d;
+  width: 50%;
+
+  @media screen and (max-width: 768px) {
+    width: 65%;
+  }
+
+  @media screen and (max-width: 576px) {
+    width: 100%;
+  }
 `;
 
 export const KhouryImage = styled.img`
   width: 50%;
   align-self: center;
+
+  @media screen and (max-width: 768px) {
+    width: 65%;
+  }
+
+  @media screen and (max-width: 576px) {
+    width: 100%;
+  }
 `;
 
 export const ProlificsImage = styled.img`
   background: #4297d2;
   width: 75%;
+  height: 100%;
   padding: 0.5rem;
+
+  @media screen and (max-width: 576px) {
+    width: 100%;
+  }
 `;
 
 export const CompanyLogoAnchor = styled.a`

@@ -28,11 +28,6 @@ export const HomePageContentContainer = styled.div`
   align-items: center;
 `;
 
-export const CenterAlignedContainer = styled.div`
-  display: flex;
-  justify-content: center;
-`;
-
 export const FontContainer = styled.span`
   font-family: Georgia, serif;
   font-weight: bold;

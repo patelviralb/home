@@ -7,10 +7,16 @@ export const SectionHeadingH1 = styled.h1`
   color: rgba(0, 0, 0, 0.54);
 `;
 
+export const SectionSubHeadingH4 = styled.h4`
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  text-justify: inter-word;
+  color: rgba(0, 0, 0, 0.54);
+`;
+
 export const CenterAlignedContainer = styled.div`
   display: flex;
   justify-content: center;
-  flex-direction: column;
 `;
 
 export const CenterAlignedItem = styled.div`

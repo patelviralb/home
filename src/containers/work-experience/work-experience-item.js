@@ -4,7 +4,7 @@ import {
   TimelineItem,
   TimelineBullet,
   TimelineContent,
-} from "../../components/styles/reuse";
+} from "../../components/styles/common";
 import {
   CompanyHeadingH5,
   DetailsIcon,

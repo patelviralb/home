@@ -7,6 +7,7 @@ import Home from "../home";
 import AboutMe from "../about-me";
 import TechnicalKnowledge from "../technical-knowledge";
 import WorkExperience from "../../components/work-experience";
+import ContactMe from "../contact-me";
 
 const Portfolio = () => {
   return (
@@ -16,6 +17,7 @@ const Portfolio = () => {
       <AboutMe />
       <TechnicalKnowledge />
       <WorkExperience />
+      <ContactMe />
     </Fragment>
   );
 };

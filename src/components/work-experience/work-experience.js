@@ -7,7 +7,6 @@ import WorkExperienceTimeline from "./work-experience-timeline";
 const WorkExperience = () => {
   return (
     <Fragment>
-      <div id="vp-my-technical-knowledge" />
       <div className="container-fluid mt-5">
         <div className="row">
           <div className="col-md-10 offset-md-1 col-12">

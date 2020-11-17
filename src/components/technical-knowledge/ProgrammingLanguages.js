@@ -8,7 +8,9 @@ const ProgrammingLanguages = () => {
     <Fragment>
       <div className="row mt-4">
         <CenterAlignedContainer className="col-md-10 offset-md-1 col-12">
-          <SectionSubHeadingH4>Programming Languages</SectionSubHeadingH4>
+          <SectionSubHeadingH4>
+            Programming Languages I know
+          </SectionSubHeadingH4>
         </CenterAlignedContainer>
       </div>
       <div className="row mt-4">

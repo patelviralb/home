@@ -12,7 +12,7 @@ const TechnicalKnowledge = () => {
       <div className="container-fluid mt-5">
         <div className="row">
           <div className="col-md-10 offset-md-1 col-12">
-            <SectionHeadingH1>Technical Knowledge</SectionHeadingH1>
+            <SectionHeadingH1>My Technical Knowledge</SectionHeadingH1>
           </div>
         </div>
 

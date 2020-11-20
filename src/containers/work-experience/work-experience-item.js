@@ -123,7 +123,7 @@ const WorkExperienceItem = (props) => {
           </div>
           <div className="row mt-2">
             <div className="col-12 d-flex justify-content-center flex-column">
-              <button
+              <div
                 data-toggle="collapse"
                 data-target={`#vp-${props.company}-work-experience`}
                 aria-expanded="false"
@@ -135,7 +135,7 @@ const WorkExperienceItem = (props) => {
                   details={getStateData(props.company)}
                   className={`ml-2 fas fa-chevron-down`}
                 />
-              </button>
+              </div>
             </div>
           </div>
           <div className="row mt-2">

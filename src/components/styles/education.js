@@ -120,7 +120,7 @@ export const TimelineBar = styled.section`
       max-width: 100%;
       width: auto;
       margin-left: 40px;
-      
+
       &:nth-child(even) {
         ${TimelineContent} {
           float: none;
@@ -143,5 +143,24 @@ export const TimelineBar = styled.section`
         }
       }
     }
+  }
+`;
+
+export const InstituteLogoAnchor = styled.a`
+  outline: 0;
+  display: flex;
+  justify-content: center;
+`;
+
+export const NortheasternUniversityImage = styled.img`
+  width: 100%;
+  align-self: center;
+
+  @media screen and (max-width: 991px) {
+    width: 50%;
+  }
+
+  @media screen and (max-width: 576px) {
+    width: 100%;
   }
 `;

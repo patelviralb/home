@@ -20,7 +20,7 @@ const ContactMe = () => {
           <CenterAlignedContainer className="col-md-10 offset-md-1 col-12">
             <a
               className="btn btn-primary font-weight-bold shadow-lg rounded text-decoration-none"
-              href="mailto:patel.viral@northeastern.edu"
+              href="mailto:patel.viral@northeastern.edu?subject=Hi Viral!"
             >
               <i className="fas fa-envelope mr-2" />
               <EmailMeButtonText>Let's Talk</EmailMeButtonText>

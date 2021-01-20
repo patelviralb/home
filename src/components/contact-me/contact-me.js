@@ -22,7 +22,7 @@ const ContactMe = () => {
               className="btn btn-primary font-weight-bold shadow-lg rounded text-decoration-none"
               href="mailto:patel.viral@northeastern.edu"
             >
-              <i class="fas fa-envelope mr-2" />
+              <i className="fas fa-envelope mr-2" />
               <EmailMeButtonText>Let's Talk</EmailMeButtonText>
             </a>
           </CenterAlignedContainer>

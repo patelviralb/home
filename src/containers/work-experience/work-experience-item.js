@@ -13,6 +13,7 @@ import {
 import {
   QuickBase,
   KhouryCollegeOfComputerSciences,
+  NortheasternUniversity,
   Prolifics,
   Infosys,
 } from "../../components/work-experience/company-logos";
@@ -23,6 +24,8 @@ const companyLogo = (company) => {
       return <QuickBase />;
     case "KHOURY_ADMIN":
       return <KhouryCollegeOfComputerSciences />;
+    case "DRC_NOTE_TAKER":
+      return <NortheasternUniversity />;
     case "PROLIFICS":
       return <Prolifics />;
     case "INFOSYS_TA":
@@ -37,6 +40,7 @@ const companyLogo = (company) => {
 const WorkExperienceItem = (props) => {
   const [qbWorkExperience, setQbWorkExperience] = useState("SHOW");
   const [khouryWorkExperience, setKhouryWorkExperience] = useState("SHOW");
+  const [drcWorkExperience, setDrcWorkExperience] = useState("SHOW");
   const [prolificsWorkExperience, setProlificsWorkExperience] = useState(
     "SHOW"
   );
@@ -66,6 +70,9 @@ const WorkExperienceItem = (props) => {
       case "KHOURY_ADMIN":
         toggleStatus(khouryWorkExperience, setKhouryWorkExperience);
         break;
+      case "DRC_NOTE_TAKER":
+        toggleStatus(drcWorkExperience, setDrcWorkExperience);
+        break;
       case "PROLIFICS":
         toggleStatus(prolificsWorkExperience, setProlificsWorkExperience);
         break;
@@ -89,6 +96,8 @@ const WorkExperienceItem = (props) => {
         return qbWorkExperience;
       case "KHOURY_ADMIN":
         return khouryWorkExperience;
+      case "DRC_NOTE_TAKER":
+        return drcWorkExperience;
       case "PROLIFICS":
         return prolificsWorkExperience;
       case "INFOSYS_TA":

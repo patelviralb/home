@@ -2,7 +2,7 @@
   "QB": {
     "companyName": "Quick Base",
     "position": "Software Engineer Co-op",
-    "duration": "June 2020 - Present",
+    "duration": "June 2020 - January 2021",
     "responsibilities": [
       "Designing UI of timeline report (Gantt Chart) for the Quick Base platform using React.js, Redux",
       "Implemented product's back-end API to retrieve data for timeline report using C++"
@@ -15,6 +15,14 @@
     "responsibilities": [
       "Provided technical support to staff/students and monitored lab equipment",
       "Created and managed work schedules for the lab proctors"
+    ]
+  },
+  "DRC_NOTE_TAKER": {
+    "companyName": "Northeastern University",
+    "position": "DRC Note-taker",
+    "duration": "September 2019 - December 2019",
+    "responsibilities": [
+      "Compiled notes for University Learning Disabilities Program which focuses on students whose primary disability is a learning disability and/or attention deficit disorder"
     ]
   },
   "PROLIFICS": {

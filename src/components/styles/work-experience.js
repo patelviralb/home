@@ -52,6 +52,19 @@ export const KhouryImage = styled.img`
   }
 `;
 
+export const NortheasternImage = styled.img`
+  width: 30%;
+  align-self: center;
+
+  @media screen and (max-width: 768px) {
+    width: 65%;
+  }
+
+  @media screen and (max-width: 576px) {
+    width: 100%;
+  }
+`;
+
 export const ProlificsImage = styled.img`
   background: #4297d2;
   width: 75%;

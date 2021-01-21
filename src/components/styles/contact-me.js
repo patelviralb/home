@@ -13,7 +13,6 @@ export const SocialMediaAnchor = styled.a`
   display: flex;
   justify-content: center;
   align-self: center;
-  outline: none;
 `;
 
 export const SocialMediaIcon = styled.i`

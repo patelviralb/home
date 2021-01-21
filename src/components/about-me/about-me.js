@@ -17,9 +17,13 @@ const AboutMe = () => {
           <div className="col-md-10 offset-md-1 col-12">
             <div className="card shadow-lg rounded">
               <div className="card-body text-justify">
-                {aboutMe.paragraphs.map((paragraph, index) => (
-                  <AboutMeParagraph key={index}>{paragraph}</AboutMeParagraph>
-                ))}
+                {aboutMe.paragraphs
+                  ? aboutMe.paragraphs.map((paragraph, index) => (
+                      <AboutMeParagraph key={index}>
+                        {paragraph}
+                      </AboutMeParagraph>
+                    ))
+                  : null}
               </div>
             </div>
           </div>

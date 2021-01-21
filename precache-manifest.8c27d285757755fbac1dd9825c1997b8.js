@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f1bd1d984699ac3409f3b40d7757cc3",
+    "revision": "a077b35b2ff9541a039eacead12c05a6",
     "url": "/home/index.html"
   },
   {
-    "revision": "21f2b2584922cde9fd76",
+    "revision": "5eae112d56aae7fd0222",
     "url": "/home/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "14b4856fd4e3ac7f1225",
+    "revision": "883a57c979cc17cde2f2",
     "url": "/home/static/css/main.5edc7faf.chunk.css"
   },
   {
-    "revision": "21f2b2584922cde9fd76",
-    "url": "/home/static/js/2.e8b5e294.chunk.js"
+    "revision": "5eae112d56aae7fd0222",
+    "url": "/home/static/js/2.bfd85c6b.chunk.js"
   },
   {
     "revision": "b6840d1fa4cd3c3e88b7c215b28b2e9e",
-    "url": "/home/static/js/2.e8b5e294.chunk.js.LICENSE.txt"
+    "url": "/home/static/js/2.bfd85c6b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "14b4856fd4e3ac7f1225",
-    "url": "/home/static/js/main.b3d49cc0.chunk.js"
+    "revision": "883a57c979cc17cde2f2",
+    "url": "/home/static/js/main.2e2972a4.chunk.js"
   },
   {
     "revision": "82b407c844beaaec709c",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "566b1f668141b006e91c407921339d7f",
     "url": "/home/static/media/khoury_college.566b1f66.png"
-  },
-  {
-    "revision": "116cdba4ee044f8c100b3b9be063418b",
-    "url": "/home/static/media/northeastern_university.116cdba4.png"
   },
   {
     "revision": "e9509129e5b69eb0afed5a1849a2e81e",

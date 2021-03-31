@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 
-import SocialMediaDetails from "./data/social-media-details.json";
+import socialMediaData from "../../../data/contact-me/contact-me.json";
+
 import { SocialMediaIcon, SocialMediaAnchor } from "../../styles/contact-me";
 import {
   CenterAlignedContainer,
@@ -12,7 +13,7 @@ import {
 } from "../../utils/removeButtonFocusAfterClick";
 
 const SocialMedia = () => {
-  return (
+  return socialMediaData.SocialMedia.length > 0 ? (
     <Fragment>
       <div className="row mt-5">
         <CenterAlignedContainer className="col-md-10 offset-md-1 col-12">
@@ -23,30 +24,26 @@ const SocialMedia = () => {
       </div>
       <div className="row mt-2">
         <CenterAlignedContainer className="col-md-10 offset-md-1 col-12">
-          {SocialMediaDetails
-            ? Object.keys(SocialMediaDetails).map((socialMedia, index) => {
-                return (
-                  <SocialMediaAnchor
-                    key={index}
-                    className="bg-success m-2 text-decoration-none shadow-lg"
-                    href={SocialMediaDetails[socialMedia].link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onMouseDown={removeButtonFocusAfterClick}
-                    onKeyUp={checkPressedKey}
-                    title={socialMedia}
-                  >
-                    <SocialMediaIcon
-                      className={SocialMediaDetails[socialMedia].class}
-                    />
-                  </SocialMediaAnchor>
-                );
-              })
-            : null}
+          {socialMediaData.SocialMedia.map((socialMediaProfile, index) => {
+            return (
+              <SocialMediaAnchor
+                key={index}
+                className="bg-success m-2 text-decoration-none shadow-lg"
+                href={socialMediaProfile.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                onMouseDown={removeButtonFocusAfterClick}
+                onKeyUp={checkPressedKey}
+                title={socialMediaProfile.name}
+              >
+                <SocialMediaIcon className={socialMediaProfile.class} />
+              </SocialMediaAnchor>
+            );
+          })}
         </CenterAlignedContainer>
       </div>
     </Fragment>
-  );
+  ) : null;
 };
 
 export default SocialMedia;

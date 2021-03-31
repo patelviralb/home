@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 import { AboutMeParagraph } from "../styles/about-me";
 import PageBreak from "../page-break";
-import aboutMe from "./data/about-me.json";
+import aboutMe from "../../data/about-me/about-me.json";
 
 const AboutMe = () => {
   return (

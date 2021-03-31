@@ -1,5 +1,7 @@
 import React, { Fragment } from "react";
 
+import emailData from "../../../data/contact-me/contact-me.json";
+
 import {
   CenterAlignedContainer,
   SectionSubHeadingH4,
@@ -10,8 +12,12 @@ import {
   checkPressedKey,
 } from "../../utils/removeButtonFocusAfterClick";
 
-const EMAIL_ID = "patel.viral@northeastern.edu";
-const SUBJECT = "Hi Viral!";
+const EMAIL_ID = emailData.Email.emailId
+  ? emailData.Email.emailId
+  : "patel.viral@northeastern.edu";
+const EMAIL_SUBJECT = emailData.Email.subject
+  ? emailData.Email.subject
+  : "Hi Viral!";
 
 const Email = () => {
   return (
@@ -27,7 +33,7 @@ const Email = () => {
         <CenterAlignedContainer className="col-md-10 offset-md-1 col-12">
           <a
             className="btn btn-primary font-weight-bold shadow-lg rounded text-decoration-none"
-            href={`mailto:${EMAIL_ID}?subject=${SUBJECT}`}
+            href={`mailto:${EMAIL_ID}?subject=${EMAIL_SUBJECT}`}
             onMouseDown={removeButtonFocusAfterClick}
             onKeyUp={checkPressedKey}
             title={`${EMAIL_ID}`}

@@ -19,6 +19,7 @@ const DownloadResumeButton = () => {
           download="Viral-Patel_Resume.pdf"
           onMouseDown={removeButtonFocusAfterClick}
           onKeyUp={checkPressedKey}
+          title="Resume"
         >
           <i className="fas fa-file-alt mr-2" />
           <DownloadResumeButtonText>Get My Resume</DownloadResumeButtonText>

@@ -27,7 +27,7 @@ const TechnicalKnowledge = () => {
 
         {technologyAndFrameworkData.technologiesAndFrameworks ? (
           <TechnicalKnowledgeSection
-            technicalKnowledgeSection="Technologies & Frameworks I've worked on"
+            technicalKnowledgeSection="Technologies &amp; Frameworks I've worked on"
             type="frameworks"
             values={technologyAndFrameworkData.technologiesAndFrameworks}
           />

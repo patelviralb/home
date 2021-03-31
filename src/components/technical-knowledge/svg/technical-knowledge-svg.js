@@ -408,28 +408,11 @@ export const IBMSvg = () => {
 export const ApacheSparkSvg = () => {
   return (
     <svg
-      /* xmlns:dc="http://purl.org/dc/elements/1.1/"
-      xmlns:cc="http://creativecommons.org/ns#"
-      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-      xmlns:svg="http://www.w3.org/2000/svg"
-      xmlns="http://www.w3.org/2000/svg"
-      xml:space="preserve" */
       viewBox="0 0 388.11249 201.85001"
-      /* height="201.85001"
-      width="388.11249" */
       version="1.1"
       id="svg4155"
       className="vp-language-image"
     >
-      {/* <metadata id="metadata4161">
-        <rdf:RDF>
-          <cc:Work rdf:about="">
-            <dc:format>image/svg+xml</dc:format>
-            <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-            <dc:title></dc:title>
-          </cc:Work>
-        </rdf:RDF>
-      </metadata> */}
       <defs id="defs4159" />
       <g transform="matrix(1.25,0,0,-1.25,0,201.85)" id="g4163">
         <g transform="scale(0.1,0.1)" id="g4165">
@@ -546,12 +529,8 @@ export const ApacheSparkSvg = () => {
 export const HadoopMapReduceSvg = () => {
   return (
     <svg
-      /* width="256px"
-      height="192px" */
       viewBox="0 0 256 192"
       version="1.1"
-      /* xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink" */
       className="vp-language-image"
       preserveAspectRatio="xMidYMid"
     >

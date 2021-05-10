@@ -9,6 +9,14 @@
       "proficiency": "Advanced"
     },
     {
+      "name": "Hadoop MapReduce",
+      "proficiency": "Intermediate"
+    },
+    {
+      "name": "Apache Spark",
+      "proficiency": "Intermediate"
+    },
+    {
       "name": "React.js",
       "proficiency": "Intermediate"
     },
@@ -22,14 +30,6 @@
     },
     {
       "name": "IBM ITX (v9.0)",
-      "proficiency": "Intermediate"
-    },
-    {
-      "name": "Hadoop MapReduce",
-      "proficiency": "Intermediate"
-    },
-    {
-      "name": "Apache Spark",
       "proficiency": "Intermediate"
     },
     {

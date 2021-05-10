@@ -7,9 +7,9 @@ export const EmailMeButtonText = styled.span`
 `;
 
 export const SocialMediaAnchor = styled.a`
-  width: 60px;
-  height: 60px;
-  border-radius: 60px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   align-self: center;

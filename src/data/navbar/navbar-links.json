@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "name": "Home",
+      "link": "#vp-home"
+    },
+    {
+      "name": "About",
+      "link": "#vp-about-me"
+    },
+    {
+      "name": "Technical Knowledge",
+      "link": "#vp-my-technical-knowledge"
+    },
+    {
+      "name": "Work Experience",
+      "link": "#vp-my-work-experience"
+    },
+    {
+      "name": "Contact Me",
+      "link": "#vp-contact-me"
+    }
+  ]
+}

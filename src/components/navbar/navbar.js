@@ -1,21 +1,25 @@
 import React, { useState } from "react";
 
+import navbarLinks from "../../data/navbar/navbar-links.json";
 import Navlink from "./navlink";
 
-const Navbar = () => {
-  const navbarLinks = {
-    Home: "#vp-home",
-    About: "#vp-about-me",
-    "Technical Knowledge": "#vp-my-technical-knowledge",
-    "Work Experience": "#vp-my-work-experience",
-    "Contact Me": "#vp-contact-me",
-    /*"Profiles": "#vp-my-social-profiles",
-            "Work Experience": "#vp-my-work-experience",
-            "Education": "#vp-my-education",
-            "Testimonies": "#vp-my-testimonies",
-            "Projects": "#vp-my-projects",*/
-  };
+// {
+//   name: "Education",
+//   link: "#vp-my-education",
+// },
+// {
+//   name: "Testimonies",
+//   link: "#vp-my-testimonies",
+// },
+// {
+//   name: "Projects",
+//   link: "#vp-my-projects",
+// },{
+//   name: "Profiles",
+//   link: "#vp-my-social-profiles",
+// },
 
+const Navbar = () => {
   const [bgColor, setBgColor] = useState("");
 
   React.useEffect(() => {
@@ -67,13 +71,9 @@ const Navbar = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
-          {Object.keys(navbarLinks).map((eachKey) => {
+          {navbarLinks.links.map((section, index) => {
             return (
-              <Navlink
-                key={eachKey}
-                name={eachKey}
-                href={navbarLinks[eachKey]}
-              />
+              <Navlink key={index} name={section.name} href={section.link} />
             );
           })}
         </ul>

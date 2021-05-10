@@ -3,12 +3,14 @@ import React from "react";
 import {
   QuickBaseSvg,
   KhouryImage,
+  NortheasternImage,
   ProlificsImage,
   CompanyLogoAnchor,
   InfosysSvg,
-} from "../styles/work-experience";
-import KhouryCollege from "./khoury_college.png";
-import ProlificsNameImage from "./prolifics_web_white.png";
+} from "../../styles/work-experience";
+import KhouryCollege from "../../../data/work-experience/company-logos/khoury_college.png";
+import Northeastern from "../../../data/work-experience/company-logos/northeastern_university.png";
+import ProlificsNameImage from "../../../data/work-experience/company-logos/prolifics_web_white.png";
 
 export const QuickBase = () => (
   <CompanyLogoAnchor
@@ -35,6 +37,16 @@ export const KhouryCollegeOfComputerSciences = () => (
       src={KhouryCollege}
       alt="Khoury College of Computer Sciences"
     />
+  </CompanyLogoAnchor>
+);
+
+export const NortheasternUniversity = () => (
+  <CompanyLogoAnchor
+    href="https://www.northeastern.edu/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <NortheasternImage src={Northeastern} alt="Northeastern University" />
   </CompanyLogoAnchor>
 );
 

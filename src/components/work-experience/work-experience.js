@@ -10,7 +10,7 @@ const WorkExperience = () => {
       <div className="container-fluid mt-5">
         <div className="row">
           <div className="col-md-10 offset-md-1 col-12">
-            <SectionHeadingH1>My Work Experience</SectionHeadingH1>
+            <SectionHeadingH1>My Experience</SectionHeadingH1>
           </div>
         </div>
 

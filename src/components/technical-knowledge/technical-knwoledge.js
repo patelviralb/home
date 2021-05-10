@@ -1,7 +1,9 @@
 import React, { Fragment } from "react";
 
-import TechnologiesAndFramework from "./TechnologiesAndFramework";
-import ProgrammingLanguages from "./ProgrammingLanguages";
+import languageData from "../../data/technical-knowledge/languages.json";
+import technologyAndFrameworkData from "../../data/technical-knowledge/technologies-and-frameworks.json";
+
+import TechnicalKnowledgeSection from "./technical-knowledge-section";
 import { SectionHeadingH1 } from "../styles/common";
 import PageBreak from "../page-break";
 
@@ -15,9 +17,21 @@ const TechnicalKnowledge = () => {
           </div>
         </div>
 
-        <ProgrammingLanguages />
+        {languageData.languages ? (
+          <TechnicalKnowledgeSection
+            technicalKnowledgeSection="Programming Languages I know"
+            type="languages"
+            values={languageData.languages}
+          />
+        ) : null}
 
-        <TechnologiesAndFramework />
+        {technologyAndFrameworkData.technologiesAndFrameworks ? (
+          <TechnicalKnowledgeSection
+            technicalKnowledgeSection="Technologies &amp; Frameworks I've worked on"
+            type="frameworks"
+            values={technologyAndFrameworkData.technologiesAndFrameworks}
+          />
+        ) : null}
       </div>
       <div className="mb-5" />
       <div id="vp-my-work-experience" />

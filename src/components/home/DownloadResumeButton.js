@@ -2,6 +2,10 @@ import React from "react";
 
 import { DownloadResumeButtonText } from "../styles/home";
 import { CenterAlignedContainer } from "../styles/common";
+import {
+  checkPressedKey,
+  removeButtonFocusAfterClick,
+} from "../utils/removeButtonFocusAfterClick";
 
 const DownloadResumeButton = () => {
   return (
@@ -13,9 +17,12 @@ const DownloadResumeButton = () => {
           target="_blank"
           rel="noopener noreferrer"
           download="Viral-Patel_Resume.pdf"
+          onMouseDown={removeButtonFocusAfterClick}
+          onKeyUp={checkPressedKey}
+          title="Resume"
         >
-          <i className="fas fa-cloud-download-alt mr-2" />
-          <DownloadResumeButtonText>Download Resume</DownloadResumeButtonText>
+          <i className="fas fa-file-alt mr-2" />
+          <DownloadResumeButtonText>Get My Resume</DownloadResumeButtonText>
         </a>
       </CenterAlignedContainer>
     </div>

@@ -2,19 +2,10 @@
   "QB": {
     "companyName": "Quick Base",
     "position": "Software Engineer Co-op",
-    "duration": "June 2020 - Present",
+    "duration": "June 2020 - January 2021",
     "responsibilities": [
       "Designing UI of timeline report (Gantt Chart) for the Quick Base platform using React.js, Redux",
       "Implemented product's back-end API to retrieve data for timeline report using C++"
-    ]
-  },
-  "KHOURY_ADMIN": {
-    "companyName": "Khoury College of Computer Sciences",
-    "position": "Khoury Systems Lab Admin",
-    "duration": "January 2020 - May 2020",
-    "responsibilities": [
-      "Provided technical support to staff/students and monitored lab equipment",
-      "Created and managed work schedules for the lab proctors"
     ]
   },
   "PROLIFICS": {

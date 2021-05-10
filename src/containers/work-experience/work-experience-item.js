@@ -16,7 +16,7 @@ import {
   NortheasternUniversity,
   Prolifics,
   Infosys,
-} from "../../components/work-experience/company-logos";
+} from "../../components/work-experience/company-logos/company-logos";
 
 const companyLogo = (company) => {
   switch (company) {

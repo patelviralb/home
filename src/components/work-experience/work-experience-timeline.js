@@ -1,7 +1,7 @@
 import React from "react";
 
 import { TimelineBar } from "../styles/common";
-import WorkExperienceDetails from "./work-experience-details.json";
+import WorkExperienceDetails from "../../data/work-experience/work-experience-details.json";
 import WorkExperienceItem from "../../containers/work-experience";
 
 const WorkExperienceTimeline = () => {

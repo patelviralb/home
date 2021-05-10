@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import vp_background_image_path from "./home-backgroung-image_keyboard-mouse.jpeg";
+import vp_background_image_path from "../../data/home/home-backgroung-image_keyboard-mouse.jpeg";
 import { BackgroundImage, HomePageContentContainer } from "../styles/home";
 import ProfileImage from "./ProfileImage";
 import ProfileHeading from "./ProfileHeading";

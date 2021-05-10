@@ -50,7 +50,7 @@ const Education = () => {
                       </div>
                       <div className="d-flex justify-content-center mt-2">
                         <SectionSubHeadingH4>
-                          September 2019 - Present
+                          September 2019 - December 2021
                         </SectionSubHeadingH4>
                       </div>
                     </div>
@@ -85,16 +85,48 @@ const Education = () => {
                         </SectionHeadingH5>
                         <SectionHeadingH5>Related Courses:</SectionHeadingH5>
                         <span
-                          style={{
-                            height: "20px",
-                            backgroundColor: "#ffa45b",
-                            padding: "5px",
-                            borderRadius: "15px",
-                          }}
+                          class="badge badge-pill badge-warning m-2"
+                          style={{ fontWeight: "normal", fontSize: "15px" }}
                         >
                           Programming Design Paradigm
                         </span>
                         <span
+                          class="badge badge-pill badge-warning m-2"
+                          style={{ fontWeight: "normal", fontSize: "15px" }}
+                        >
+                          Foundation of Artificial Intelligence
+                        </span>
+                        <span
+                          class="badge badge-pill badge-warning m-2"
+                          style={{ fontWeight: "normal", fontSize: "15px" }}
+                        >
+                          Web Development
+                        </span>
+                        <span
+                          class="badge badge-pill badge-warning m-2"
+                          style={{ fontWeight: "normal", fontSize: "15px" }}
+                        >
+                          Algorithms
+                        </span>
+                        <span
+                          class="badge badge-pill badge-warning m-2"
+                          style={{ fontWeight: "normal", fontSize: "15px" }}
+                        >
+                          Foundation of Software Engineering
+                        </span>
+                        <span
+                          class="badge badge-pill badge-warning m-2"
+                          style={{ fontWeight: "normal", fontSize: "15px" }}
+                        >
+                          Large Scale Parallel Data Processing
+                        </span>
+                        <span
+                          class="badge badge-pill badge-warning m-2"
+                          style={{ fontWeight: "normal", fontSize: "15px" }}
+                        >
+                          Natural Language Processing
+                        </span>
+                        {/* <div
                           style={{
                             height: "20px",
                             backgroundColor: "#ffa45b",
@@ -102,9 +134,9 @@ const Education = () => {
                             borderRadius: "15px",
                           }}
                         >
-                          Foundation of Artificial Intelligence
-                        </span>
-                        <span
+                          
+                        </div>
+                        <div
                           style={{
                             height: "20px",
                             backgroundColor: "#ffa45b",
@@ -113,8 +145,8 @@ const Education = () => {
                           }}
                         >
                           Web Development
-                        </span>
-                        <span
+                        </div>
+                        <div
                           style={{
                             height: "20px",
                             backgroundColor: "#ffa45b",
@@ -123,8 +155,8 @@ const Education = () => {
                           }}
                         >
                           Algorithms
-                        </span>
-                        <span
+                        </div>
+                        <div
                           style={{
                             height: "20px",
                             backgroundColor: "#ffa45b",
@@ -133,7 +165,7 @@ const Education = () => {
                           }}
                         >
                           Foundation of Software Engineering
-                        </span>
+                        </div> */}
                       </div>
                     </div>
                   </div>

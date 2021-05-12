@@ -1,0 +1,56 @@
+{
+  "technologiesAndFrameworks": [
+    {
+      "name": "Git VCS",
+      "proficiency": "Advanced"
+    },
+    {
+      "name": "IBM WTX (v8.4.0.3)",
+      "proficiency": "Advanced"
+    },
+    {
+      "name": "Hadoop MapReduce",
+      "proficiency": "Intermediate"
+    },
+    {
+      "name": "Apache Spark",
+      "proficiency": "Intermediate"
+    },
+    {
+      "name": "React.js",
+      "proficiency": "Intermediate"
+    },
+    {
+      "name": "Redux",
+      "proficiency": "Intermediate"
+    },
+    {
+      "name": "MySQL",
+      "proficiency": "Intermediate"
+    },
+    {
+      "name": "IBM ITX (v9.0)",
+      "proficiency": "Intermediate"
+    },
+    {
+      "name": "Node.js",
+      "proficiency": "Novice"
+    },
+    {
+      "name": "JavaScript",
+      "proficiency": "Novice"
+    },
+    {
+      "name": "Angular",
+      "proficiency": "Beginner"
+    },
+    {
+      "name": "jQuery",
+      "proficiency": "Beginner"
+    },
+    {
+      "name": "MongoDB",
+      "proficiency": "Beginner"
+    }
+  ]
+}

@@ -17,7 +17,7 @@ const TechnicalKnowledge = () => {
           </div>
         </div>
 
-        {languageData.languages ? (
+        {languageData.languages.length > 0 ? (
           <TechnicalKnowledgeSection
             technicalKnowledgeSection="Programming Languages I know"
             type="languages"
@@ -25,7 +25,7 @@ const TechnicalKnowledge = () => {
           />
         ) : null}
 
-        {technologyAndFrameworkData.technologiesAndFrameworks ? (
+        {technologyAndFrameworkData.technologiesAndFrameworks.length > 0 ? (
           <TechnicalKnowledgeSection
             technicalKnowledgeSection="Technologies &amp; Frameworks I've worked on"
             type="frameworks"

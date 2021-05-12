@@ -17,10 +17,11 @@ const Education = () => {
 
         <div className="row">
           <div className="col-md-10 offset-md-1 col-12">
-            {EducationDetails.my_education.length > 0 &&
-              EducationDetails.my_education.map((institute, index) => {
-                return <EducationCard key={index} institute={institute} />;
-              })}
+            {EducationDetails.my_education.length > 0
+              ? EducationDetails.my_education.map((institute, index) => {
+                  return <EducationCard key={index} institute={institute} />;
+                })
+              : null}
           </div>
         </div>
       </div>

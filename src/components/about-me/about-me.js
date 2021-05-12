@@ -17,7 +17,7 @@ const AboutMe = () => {
           <div className="col-md-10 offset-md-1 col-12">
             <div className="card shadow-lg rounded">
               <div className="card-body text-justify">
-                {aboutMe.paragraphs
+                {aboutMe.paragraphs.length > 0
                   ? aboutMe.paragraphs.map((paragraph, index) => (
                       <AboutMeParagraph key={index}>
                         {paragraph}

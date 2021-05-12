@@ -6,8 +6,8 @@ import Navbar from "../navbar";
 import Home from "../home";
 import AboutMe from "../about-me";
 import TechnicalKnowledge from "../technical-knowledge";
-import WorkExperience from "../../components/work-experience";
-import Education from "../../containers/education";
+import WorkExperience from "../work-experience";
+import Education from "../education";
 import ContactMe from "../contact-me";
 
 const Portfolio = () => {

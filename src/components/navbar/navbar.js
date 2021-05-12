@@ -71,11 +71,17 @@ const Navbar = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
-          {navbarLinks.links.map((section, index) => {
-            return (
-              <Navlink key={index} name={section.name} href={section.link} />
-            );
-          })}
+          {navbarLinks.links.length > 0
+            ? navbarLinks.links.map((section, index) => {
+                return (
+                  <Navlink
+                    key={index}
+                    name={section.name}
+                    href={section.link}
+                  />
+                );
+              })
+            : null}
         </ul>
       </div>
     </nav>

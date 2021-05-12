@@ -1,42 +1,42 @@
 import styled from "styled-components";
 
 export const SectionHeadingH1 = styled.h1`
-  font-family: "Jost", sans-serif;
+  font-family: Georgia, sans-serif;
   font-weight: bold;
   text-justify: inter-word;
   color: rgba(0, 0, 0, 0.54);
 `;
 
 export const SectionHeadingH2 = styled.h2`
-  font-family: "Jost", sans-serif;
+  font-family: Georgia, sans-serif;
   font-weight: bold;
   text-justify: inter-word;
   color: rgba(0, 0, 0, 0.54);
 `;
 
 export const SectionHeadingH3 = styled.h3`
-  font-family: "Jost", sans-serif;
+  font-family: Georgia, sans-serif;
   font-weight: bold;
   text-justify: inter-word;
   color: rgba(0, 0, 0, 0.54);
 `;
 
 export const SectionSubHeadingH4 = styled.h4`
-  font-family: "Jost", sans-serif;
+  font-family: Georgia, sans-serif;
   font-weight: bold;
   text-justify: inter-word;
   color: rgba(0, 0, 0, 0.54);
 `;
 
 export const SectionHeadingH5 = styled.h5`
-  font-family: "Jost", sans-serif;
+  font-family: Georgia, sans-serif;
   font-weight: bold;
   text-justify: inter-word;
   color: rgba(0, 0, 0, 0.54);
 `;
 
 export const SectionHeadingH6 = styled.h6`
-  font-family: "Jost", sans-serif;
+  font-family: Georgia, sans-serif;
   font-weight: bold;
   text-justify: inter-word;
   color: rgba(0, 0, 0, 0.54);

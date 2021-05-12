@@ -12,7 +12,7 @@ export const CenterAlignedContainer = styled.div`
 `;
 
 export const CompanyHeadingH5 = styled.h5`
-  font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
+  font-family: Georgia, sans-serif;
   font-weight: bold;
   text-justify: inter-word;
   color: rgba(0, 0, 0, 0.54);

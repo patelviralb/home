@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.d74d4b47.chunk.css",
+    "main.css": "/home/static/css/main.18a203cb.chunk.css",
     "main.js": "/home/static/js/main.253d6429.chunk.js",
     "main.js.map": "/home/static/js/main.253d6429.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.1e703b0d.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.1e703b0d.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/home/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.b2e328ee.chunk.js": "/home/static/js/2.b2e328ee.chunk.js",
-    "static/js/2.b2e328ee.chunk.js.map": "/home/static/js/2.b2e328ee.chunk.js.map",
+    "static/css/2.8163d445.chunk.css": "/home/static/css/2.8163d445.chunk.css",
+    "static/js/2.65300ad7.chunk.js": "/home/static/js/2.65300ad7.chunk.js",
+    "static/js/2.65300ad7.chunk.js.map": "/home/static/js/2.65300ad7.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.3e7b2780ad6825645a6926a9bfd74668.js": "/home/precache-manifest.3e7b2780ad6825645a6926a9bfd74668.js",
+    "precache-manifest.0cee605651834b359feca6beac84cfd1.js": "/home/precache-manifest.0cee605651834b359feca6beac84cfd1.js",
     "service-worker.js": "/home/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/home/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.d74d4b47.chunk.css.map": "/home/static/css/main.d74d4b47.chunk.css.map",
-    "static/js/2.b2e328ee.chunk.js.LICENSE.txt": "/home/static/js/2.b2e328ee.chunk.js.LICENSE.txt",
+    "static/css/2.8163d445.chunk.css.map": "/home/static/css/2.8163d445.chunk.css.map",
+    "static/css/main.18a203cb.chunk.css.map": "/home/static/css/main.18a203cb.chunk.css.map",
+    "static/js/2.65300ad7.chunk.js.LICENSE.txt": "/home/static/js/2.65300ad7.chunk.js.LICENSE.txt",
     "static/media/home-backgroung-image_keyboard-mouse.jpeg": "/home/static/media/home-backgroung-image_keyboard-mouse.4777d97b.jpeg",
     "static/media/khoury_college.png": "/home/static/media/khoury_college.566b1f66.png",
     "static/media/northeastern-university.png": "/home/static/media/northeastern-university.5bfd9e82.png",
@@ -24,9 +24,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1e703b0d.js",
-    "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.b2e328ee.chunk.js",
-    "static/css/main.d74d4b47.chunk.css",
+    "static/css/2.8163d445.chunk.css",
+    "static/js/2.65300ad7.chunk.js",
+    "static/css/main.18a203cb.chunk.css",
     "static/js/main.253d6429.chunk.js"
   ]
 }

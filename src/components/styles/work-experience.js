@@ -26,6 +26,18 @@ export const DetailsIcon = styled.i`
   transform: ${(props) => (props.details === "HIDE" ? `rotate(180deg)` : "")};
 `;
 
+
+
+export const BarclaysImage = styled.img`
+  width: 60%;
+  height: auto;
+  padding: 0.5rem;
+
+  @media screen and (max-width: 576px) {
+    width: 100%;
+  }
+`;
+
 export const QuickBaseSvg = styled.svg`
   fill: #74489d;
   width: 50%;
@@ -68,7 +80,7 @@ export const NortheasternImage = styled.img`
 export const ProlificsImage = styled.img`
   background: #4297d2;
   width: 75%;
-  height: 100%;
+  height: auto;
   padding: 0.5rem;
 
   @media screen and (max-width: 576px) {

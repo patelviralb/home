@@ -1,6 +1,7 @@
 import React from "react";
 
 import {
+  BarclaysImage,
   QuickBaseSvg,
   KhouryImage,
   NortheasternImage,
@@ -8,9 +9,23 @@ import {
   CompanyLogoAnchor,
   InfosysSvg,
 } from "../../styles/work-experience";
+import BarclaysSrc from "../../../data/work-experience/company-logos/barclays.png";
 import KhouryCollege from "../../../data/work-experience/company-logos/khoury_college.png";
 import Northeastern from "../../../data/work-experience/company-logos/northeastern_university.png";
 import ProlificsNameImage from "../../../data/work-experience/company-logos/prolifics_web_white.png";
+
+export const Barclays = () => (
+  <CompanyLogoAnchor
+    href="https://home.barclays/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <BarclaysImage
+      src={BarclaysSrc}
+      alt="Barclays"
+    />
+  </CompanyLogoAnchor>
+);
 
 export const QuickBase = () => (
   <CompanyLogoAnchor

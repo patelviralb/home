@@ -1,6 +1,7 @@
 import React from "react";
 
 import {
+  Barclays,
   QuickBase,
   KhouryCollegeOfComputerSciences,
   NortheasternUniversity,
@@ -9,6 +10,7 @@ import {
 } from "../company-logos/company-logos";
 
 export const defaultState = {
+  BARCLAYS: "SHOW",
   QB: "SHOW",
   PROLIFICS: "SHOW",
   INFOSYS_TA: "SHOW",
@@ -18,6 +20,8 @@ export const defaultState = {
 
 export const getCompanyLogo = (organisation) => {
   switch (organisation) {
+    case "BARCLAYS":
+      return <Barclays />;
     case "QB":
       return <QuickBase />;
     case "KHOURY_ADMIN":

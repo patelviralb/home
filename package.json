@@ -13,8 +13,10 @@
     "popper.js": "^1.16.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
     "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

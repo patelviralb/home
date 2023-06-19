@@ -18,6 +18,8 @@ import {
   ReduxSvg,
   ApacheSparkSvg,
   HadoopMapReduceSvg,
+  SpringBootSvg,
+  OracleSqlSvg,
 } from "./technical-knowledge-svg";
 
 export const getSvg = (name) => {
@@ -58,6 +60,10 @@ export const getSvg = (name) => {
       return <JQuerySvg />;
     case "MongoDB":
       return <MongoDBSvg />;
+    case "Spring Boot":
+      return <SpringBootSvg />;
+    case "Oracle SQL":
+      return <OracleSqlSvg />;
     default:
       return null;
   }

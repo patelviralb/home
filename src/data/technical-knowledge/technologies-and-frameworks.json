@@ -1,8 +1,16 @@
 {
   "technologiesAndFrameworks": [
     {
+      "name": "Spring Boot",
+      "proficiency": "Advanced"
+    },
+    {
       "name": "Git VCS",
       "proficiency": "Advanced"
+    },
+    {
+      "name": "Oracle SQL",
+      "proficiency": "Intermediate"
     },
     {
       "name": "IBM WTX (v8.4.0.3)",
@@ -10,11 +18,11 @@
     },
     {
       "name": "Hadoop MapReduce",
-      "proficiency": "Intermediate"
+      "proficiency": "Beginner"
     },
     {
       "name": "Apache Spark",
-      "proficiency": "Intermediate"
+      "proficiency": "Beginner"
     },
     {
       "name": "React.js",
